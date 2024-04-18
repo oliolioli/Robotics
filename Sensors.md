@@ -1,6 +1,6 @@
 # E-Puck Sensors #
 
-The following is a detailed analysis of the sensors
+The following is a detailed analysis of the following sensors
 - infrared distance sensor
 - infrared floor sensors
 - camera, microphones
@@ -26,7 +26,7 @@ There are three infrared floor sensors in the lower section at the front of the 
 
 <table>
   <tr>
-    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/01f7d0ac-3de5-4c95-a83d-44bbb603cf02" alt=""></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2fbc87e7-bad2-4672-a514-2d734a0221df" alt=""></td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/01f7d0ac-3de5-4c95-a83d-44bbb603cf02" alt=""></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2fbc87e7-bad2-4672-a514-2d734a0221df" alt=""></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/bcce3666-e59a-404d-ac44-715f7c9af859 alt="Colored lines for ground sensor testing"></td>
   </tr>
 </table>
 
@@ -35,5 +35,7 @@ fluctuate. A white sheet with coloured lines glued to it will serve as our test 
 We place the robot on the bottom white edge of the paper and then let it vertically over all the lines. The generated plots clearly show that the two black lines (first and fourth line) lead to impressive deflections of the sensors. Although the plotted curve also shows clearly visible deflections in the traverse of the remaining coloured lines, these are only between 1000 and 900 and are therefore very close to the values for pure white. To control a robot with floor markings, the clear black colour is therefore very suitable.
 
 
+We can clearly see the different sensitivity of the three individual floor sensors. 
+If we let the robot move diagonally across the sheet with the coloured lines at an approximate angle of 45° - from bottom left to top right in the middle - our measured values shift on the X-axis (step). This is because the three floor sensors on the front of the robot are all on the same horizontal line. Therefore, the above-mentioned shift in the respective sensor deflections occurs when the lines are crossed.
 
 [^1]: [Wiki GCtronic e-puck2](https://www.gctronic.com/doc/index.php?title=e-puck2)
