@@ -20,11 +20,26 @@ We output the two constants PROX LEFT FRONT and PROX RIGHT FRONT using a print c
 
 The noise of the sensors is clearly recognisable: The noise is particularly visible with the strongly fluctuating values in the range between 20 and 50 steps and also strongly differing values between the left and right sensors.
 
-### Ground sensors ###
+## Infrared floor sensors ##
 
-![image](https://github.com/oliolioli/Robotics/assets/4264535/01f7d0ac-3de5-4c95-a83d-44bbb603cf02)
+There are three infrared floor sensors in the lower section at the front of the E-Puck.
 
-![image](https://github.com/oliolioli/Robotics/assets/4264535/2fbc87e7-bad2-4672-a514-2d734a0221df)
+<table>
+  <tr>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/01f7d0ac-3de5-4c95-a83d-44bbb603cf02" alt=""></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2fbc87e7-bad2-4672-a514-2d734a0221df" alt=""></td>
+  </tr>
+</table>
+
+
+
+![image]()
+
+We use the robot.init ground() function to test the response behaviour of the sensors. The value range of these sensors should vary between 1000 (pure white) and 0 (black).
+fluctuate. A white sheet with coloured lines glued to it will serve as our test setup: 
+We place the robot on the bottom white edge of the paper and then let it
+vertically over all the lines. The generated plots clearly show that the two black lines (first and fourth line) lead to impressive deflections of the sensors. Although the plotted curve also shows clearly visible deflections in the traverse of the remaining coloured lines, these are only between 1000
+and 900 and are therefore very close to the values for pure white. To control a robot with floor markings, the clear black colour is therefore very suitable.
+
 
 
 
