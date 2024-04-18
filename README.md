@@ -14,6 +14,14 @@ https://github.com/oliolioli/Robotics/assets/4264535/18018da6-3946-477f-ae88-b45
 
 
 
+https://github.com/oliolioli/Robotics/assets/4264535/2693a1c7-5c7e-484e-b515-a5ade502ffd1
+
+
+
+https://github.com/oliolioli/Robotics/assets/4264535/e264dcfa-8b4c-4c31-a6ea-b20a95cde713
+
+
+
 ## Sensors
 
 ![image](https://github.com/oliolioli/Robotics/assets/4264535/60756dc9-6ed8-4cfa-9c25-9c1cd0529279)
