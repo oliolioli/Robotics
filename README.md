@@ -11,13 +11,13 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 
 💡 Unfortunately, due to the artificial lighting conditions, flickering in the video recordings was almost unavoidable. 📹
 
-## Braitenberg vehicle - Lover version ##
+## Braitenberg vehicles ##
 
 See [Braitenberg vehicle](https://en.wikipedia.org/wiki/Braitenberg_vehicle) for a short introduction.
 
 ### Approaching obstacles ###
 
-The Braitenberg vehicle in the Lover version is designed to approach an obstacle it has spotted.
+The following Braitenberg vehicle is designed to approach an obstacle it has spotted.
 
 **Learnings:** The values proxL and proxR, and therefore also dsL and dsR, must increase with approaching an obstacle. This ultimately reduces the speed of the corresponding motors and allows to approach obstacles.
 
