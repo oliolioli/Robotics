@@ -66,6 +66,9 @@ else :
 robot . set_speed (2 , 2)
 ```
 
+https://github.com/oliolioli/Robotics/assets/4264535/74a5d4dd-158e-4719-96a9-7b2cbbef6fd0
+
+
 **💡 Learnings** 
 
 In order to follow the given line even on right-angled bends, a fast turn to the left or right must be initiated as soon as such a turn is reached.
