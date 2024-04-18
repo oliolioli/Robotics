@@ -1,10 +1,10 @@
 # E-Puck Sensors #
 
 The following is a detailed analysis of the following sensors
-- [anchor](#infrared-distance-sensor)
-- infrared floor sensors
-- camera, microphones
-- object recognition via programming interface
+- [Proximity infra-red sensors](#infrared-distance-sensor)
+- [Infrared floor sensors](#infrared-floor-sensors)
+- [Camera and microphones](#Camera-and-microphones)
+- [Object recognition via programming interface](#Object-recognition-via-programming-interface)
 
 ## Proximity infra-red sensors ##
 
@@ -60,8 +60,6 @@ The microphones have different sensitivities, particularly with regard to their 
 </table>
 
 
-
-
-## object recognition via programming interface ##
+## Object recognition via programming interface ##
 
 [^1]: [Wiki GCtronic e-puck2](https://www.gctronic.com/doc/index.php?title=e-puck2)
