@@ -7,7 +7,7 @@ Exploring robotics at the  University of Fribourg, merging theory with practical
 
 
 ## Solution ##
-https://drive.google.com/file/d/10L-9LE8CBI6b6enJoej369WZbAujUm4E/view
+<iframe src="https://drive.google.com/file/d/10L-9LE8CBI6b6enJoej369WZbAujUm4E/view"></iframe>
 
 
 
