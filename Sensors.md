@@ -30,16 +30,9 @@ There are three infrared floor sensors in the lower section at the front of the 
   </tr>
 </table>
 
-
-
-![image]()
-
-We use the robot.init ground() function to test the response behaviour of the sensors. The value range of these sensors should vary between 1000 (pure white) and 0 (black).
+We use the **robot.init ground()** function to test the response behaviour of the sensors. The value range of these sensors should vary between 1000 (pure white) and 0 (black).
 fluctuate. A white sheet with coloured lines glued to it will serve as our test setup: 
-We place the robot on the bottom white edge of the paper and then let it
-vertically over all the lines. The generated plots clearly show that the two black lines (first and fourth line) lead to impressive deflections of the sensors. Although the plotted curve also shows clearly visible deflections in the traverse of the remaining coloured lines, these are only between 1000
-and 900 and are therefore very close to the values for pure white. To control a robot with floor markings, the clear black colour is therefore very suitable.
-
+We place the robot on the bottom white edge of the paper and then let it vertically over all the lines. The generated plots clearly show that the two black lines (first and fourth line) lead to impressive deflections of the sensors. Although the plotted curve also shows clearly visible deflections in the traverse of the remaining coloured lines, these are only between 1000 and 900 and are therefore very close to the values for pure white. To control a robot with floor markings, the clear black colour is therefore very suitable.
 
 
 
