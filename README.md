@@ -13,7 +13,7 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 - [Braitenberg vehicles](#Braitenberg-vehicles)
 - [Line following](#Line-following)
 - [PID controlled wand following behaviour](#PID-controlled-wand-following-behaviour)
-- [Colour recognition](#Colour-recognition)
+- [Recognise coloured blocks](#Recognise-coloured-blocks)
 
 ## Braitenberg vehicles ##
 
@@ -104,7 +104,7 @@ https://github.com/oliolioli/Robotics/assets/4264535/ec4084f7-43d5-42b0-987f-2ca
 _Video: PID controlled block surrounding_
 
 
-## Colour recognition ##
+## Recognise coloured blocks ##
 
 To do this, the entire image area (array of (160x120 pixels)) captured using robot.get camera() is iterated through.
 
