@@ -58,7 +58,7 @@ https://github.com/oliolioli/Robotics/assets/4264535/0f0dc9ea-8356-4ec1-b1bc-1f7
 _Video: Approaching obstacles, stop and explore further_
 
 
-### Line following ###
+## Line following ##
 
 Two sensors are positioned on a line and one remaining sensor on the white background. In this way, it can be recognised whether the robot is still following the line or deviating from it.
 
@@ -89,7 +89,7 @@ state = " turn_right "
 ```
 
 
-### PID controlled wand following behaviour ###
+## PID controlled wand following behaviour ##
 
 In the following, an e-puck is to be optimised so that it follows the course of a wall using a [PID controller](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller) . A PID controller consists of three elements (P, I and D):
 <b>
@@ -104,6 +104,11 @@ https://github.com/oliolioli/Robotics/assets/4264535/ec4084f7-43d5-42b0-987f-2ca
 _Video: PID controlled block surrounding_
 
 
+## Colour recognition ##
+
+To do this, the entire image area (array of (160x120 pixels)) captured using robot.get camera() is iterated through.
+
+As soon as one of the three colours is detected, the system checks whether a certain detected colour occurs from a certain position on a sufficient area. In this case, we can assume that a coloured block has been detected as such.
 
 
 [^1]: https://en.wikipedia.org/wiki/PID_controller
