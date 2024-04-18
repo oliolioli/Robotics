@@ -36,15 +36,15 @@ speedL = ( NORM_SPEED - dsL )
 The Braitenberg vehicle of the Explorer type should not approach an obstacle like the previous type, but rather avoid obstacles. This is achieved by the simple reversal of the
 described above. If the sensor system recognises an obstacle, it is not approached but rather driven away from it. To do this, the motor control is simply reconfigured crosswise.
 
-### Merging these two behaviours ###
+### Approaching obstacles, stop and explore further ###
 
 The two vehicle types should now switch back and forth between their states.
-To do this, it must be determined in a robust manner whether and when the approach is sufficiently balanced and the robot comes to a stop in front of the obstacle (behaviour is at equilibrium).
+To do this, it must be determined in a robust manner whether and when the approach is sufficiently balanced and the robot comes to a stop in front of the obstacle (behaviour is at equilibrium). It makes sense to model this behaviour as a finite state diagram.
 
-The distance sensors can be used to determine the equilibrium in front of an obstacle. However, due to the signal noise, we have decided against this and determine the equilibrium using an average of the motor speed. We consider the speed adapted to the respective distance to be less fluctuating and therefore more robust for checking the equilibrium.
+The distance sensors can be used to determine the equilibrium in front of an obstacle. However, due to the signal noise, we have decided against this and determine the equilibrium using an average of the motor speed. We consider the speed adapted to the respective distance to be less fluctuating and therefore more robust for checking the equilibrium. To do this, we now continuously fill a list with the average value of the two motors during the journey. When the approaching robot approaches an obstacle, we compare the average speed of the last 30 saved values.
 
+**Learnings:** 
 
-To do this, we now continuously fill a list with the average value of the two motors during the journey. When the approaching robot approaches an obstacle, we compare the average speed of the last 30 saved values.
 Checking the equilibrium using the last 30 average speeds against a certain threshold value has proven to be very robust. Obstacles that are too low or too narrow are problematic, as they are difficult for the sensors to detect and therefore sometimes do not result in sufficient speed adjustment. Prioritising the front sensors so that narrower obstacles can also be detected might be an option here. For obstacles that are too low, on the other hand, the sensors
 simply not designed for obstacles that are too low. Furthermore, the two rearmost sensors (3, 4) had to be given a negative weighting d of -2. This ensures that the robot actually moves away from the obstacle after changing state and does not approach the same obstacle again.
 
