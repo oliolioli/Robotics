@@ -7,9 +7,7 @@ Exploring robotics at the  University of Fribourg, merging theory with practical
 
 
 ## Solution ##
-<iframe src="https://drive.google.com/file/d/10L-9LE8CBI6b6enJoej369WZbAujUm4E/view" width="100" height="100"></iframe>
-
-[![Alternate Text]({image-url})]({video-url} "Link Title")
+[![Video]({image-url})]({[video-url](https://drive.google.com/file/d/10L-9LE8CBI6b6enJoej369WZbAujUm4E/view)} "Link Title")
 
 
 ## Sensors
