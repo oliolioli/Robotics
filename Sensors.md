@@ -49,8 +49,9 @@ The generated plots clearly show that the two black lines (first and fourth line
 ## Camera & microphones ##
 
 ### Initialising the camera ##
-![image](https://github.com/oliolioli/Robotics/assets/4264535/f2f824b9-fce5-4a8a-8e58-3d4199ba4824)
-Historam in front of red block
+
+<img src="https://github.com/oliolioli/Robotics/assets/4264535/f2f824b9-fce5-4a8a-8e58-3d4199ba4824" height="70%" width="70%">>
+Historam in front of red block (without letterboxing)
 
 ### Microphones ###
 
