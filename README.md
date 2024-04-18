@@ -108,7 +108,25 @@ _Video: PID controlled block surrounding_
 
 To do this, the entire image area (array of (160x120 pixels)) captured using robot.get camera() is iterated through.
 
-As soon as one of the three colours is detected, the system checks whether a certain detected colour occurs from a certain position on a sufficient area. In this case, we can assume that a coloured block has been detected as such.
+```python
+for y in range (119) :
+for x in range (159) :
+if ( r [ y ][ x ] >= g [ y ][ x ] + 45 and r [ y ][ x ] >= b [ y ][ x ] + 45 and red_on == False ) :
+if ( check_red (x , y , r , g , b ) ) :
+red_on = True
+light_robot ()
+elif ( g [ y ][ x ] >= r [ y ][ x ] + 15 and g [ y ][ x ] >= b [ y ][ y ] + 15 and green_on == False ) :
+if ( check_green (x , y , r , g , b ) ) :
+green_on = True
+light_robot ()
+elif ( b [ y ][ x ] >= r [ y ][ x ] + 30 and b [ y ][ x ] >= g [ y ][ x ] + 30 and blue_on == False ) :
+if ( check_blue (x , y , r , g , b ) ) :
+blue_on = True
+light_robot ()
+```
+
+
+As soon as one of the three colours is detected, the system checks whether a certain detected colour occurs from a certain position on a sufficient area. In this case, we can assume that a coloured block has been detected as such. Then the robot light up depending on which colors are detected.
 
 
 [^1]: https://en.wikipedia.org/wiki/PID_controller
