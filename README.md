@@ -43,7 +43,7 @@ To do this, it must be determined in a robust manner whether and when the approa
 
 The distance sensors can be used to determine the equilibrium in front of an obstacle. However, due to the signal noise, we have decided against this and determine the equilibrium using an average of the motor speed. We consider the speed adapted to the respective distance to be less fluctuating and therefore more robust for checking the equilibrium. To do this, we now continuously fill a list with the average value of the two motors during the journey. When the approaching robot approaches an obstacle, we compare the average speed of the last 30 saved values.
 
-**💡 Learnings:** 
+**💡 Learnings** 
 
 Checking the equilibrium using the last 30 average speeds against a certain threshold value has proven to be very robust. Obstacles that are too low or too narrow are problematic, as they are difficult for the sensors to detect and therefore sometimes do not result in sufficient speed adjustment. Prioritising the front sensors so that narrower obstacles can also be detected might be an option here. For obstacles that are too low, on the other hand, the sensors
 simply not designed for obstacles that are too low. Furthermore, the two rearmost sensors (3, 4) had to be given a negative weighting d of -2. This ensures that the robot actually moves away from the obstacle after changing state and does not approach the same obstacle again.
@@ -66,7 +66,14 @@ else :
 robot . set_speed (2 , 2)
 ```
 
-**💡 Learnings:** 
+**💡 Learnings** 
 
 In order to follow the given line even on right-angled bends, a fast turn to the left or right must be initiated as soon as such a turn is reached.
 must be initiated as soon as such a turn is reached. Such a sharp turn is tricky because all three sensors reach the same value at once, as they are all either on the line or have already left the bend. To deal with this, a counter counts 100 steps in each direction.
+
+```python
+elif ( gs [ MID ] < 500 and gs [ LEFT ] < 500 and gs [ RIGHT ] < 500) :
+state = " turn_left "
+elif ( gs [ MID ] > 500 and gs [ LEFT ] > 500 and gs [ RIGHT ] > 500) :
+state = " turn_right "
+```
