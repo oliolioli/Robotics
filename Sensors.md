@@ -70,7 +70,7 @@ In addition to the self-explanatory width and height attributes, **conf and labe
 <i>The treshold (here: 0.7) is crucial for object recognition and must be determined heuristically.</i>
 
 <table>
-  <th>Recognition of a blue block</th><th>Recognition of a yellow block</th>
+  <th colspan="2">Recognition of a blue and yellow blocks</th>
   <tr>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/8eb0aeaa-83b5-4055-a502-221718beca1e" alt=""></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/d36ae43b-3065-42da-90a5-01f94eed910a" alt=""></td>
   </tr>
