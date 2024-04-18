@@ -1,8 +1,7 @@
 # Robotics #
-Exploring robotics with EPFLs E-Puck at the University of Fribourg, merging theory with practical application (GCtronics E-Puck)[https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2/] 
+Exploring robotics with EPFLs E-Puck at the University of Fribourg, merging theory with practical application [GCtronics E-Puck](https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2)
 
-<img src="https://github.com/oliolioli/Robotics/assets/4264535/20e8ebbf-b4f4-4f52-a3ea-d492a5e463fd" alt="E-Puck robot" width="50%" height="50%">
-<br/><figcaption><i>(Image taken from https://e-puck.gctronic.com)</i></figcaption>
+<img src="https://github.com/oliolioli/Robotics/assets/4264535/20e8ebbf-b4f4-4f52-a3ea-d492a5e463fd" alt="E-Puck robot, Image taken from https://e-puck.gctronic.com" width="50%" height="50%">
 
 
 # Robot #
