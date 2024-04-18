@@ -31,13 +31,21 @@ speedL = ( NORM_SPEED - dsL )
 
 💡 Unfortunately, due to the artificial lighting conditions, flickering was almost unavoidable in these and the following video recordings. 📹
 
-
 ### Exploring (avoiding instead of approaching obstacles) ###
 
 The Braitenberg vehicle of the Explorer type should not approach an obstacle like the previous type, but rather avoid obstacles. This is achieved by the simple reversal of the
 described above. If the sensor system recognises an obstacle, it is not approached but rather driven away from it. To do this, the motor control is simply reconfigured crosswise.
 
+### Merging these two behaviours ###
+
+The two vehicle types should now switch back and forth between their states.
+To do this, it must be determined in a robust manner whether and when the approach is sufficiently balanced and the robot comes to a stop in front of the obstacle (behaviour is at equilibrium).
+
+The distance sensors can be used to determine the equilibrium in front of an obstacle. However, due to the signal noise, we have decided against this and determine the equilibrium using an average of the motor speed. We consider the speed adapted to the respective distance to be less fluctuating and therefore more robust for checking the equilibrium.
 
 
+To do this, we now continuously fill a list with the average value of the two motors during the journey. When the approaching robot approaches an obstacle, we compare the average speed of the last 30 saved values.
+Checking the equilibrium using the last 30 average speeds against a certain threshold value has proven to be very robust. Obstacles that are too low or too narrow are problematic, as they are difficult for the sensors to detect and therefore sometimes do not result in sufficient speed adjustment. Prioritising the front sensors so that narrower obstacles can also be detected might be an option here. For obstacles that are too low, on the other hand, the sensors
+simply not designed for obstacles that are too low. Furthermore, the two rearmost sensors (3, 4) had to be given a negative weighting d of -2. This ensures that the robot actually moves away from the obstacle after changing state and does not approach the same obstacle again.
 
 https://github.com/oliolioli/Robotics/assets/4264535/0f0dc9ea-8356-4ec1-b1bc-1f7502ccfeb0
