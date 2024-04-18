@@ -1,6 +1,14 @@
 # E-Puck Sensors #
 
-The following is a detailed analysis of the sensors (infrared distance sensors, infrared floor sensors, camera, microphones and object recognition via programming interface).
+The following is a detailed analysis of the sensors
+- infrared distance sensor
+- infrared floor sensors
+- camera, microphones
+- object recognition via programming interface
+
+## Proximity infra-red sensors ##
+
+We initialise the robot's sensors and calibrate the infrared sensors. We plot the calibration data. For now, we are only interested in the proximity infrared sensors (PROX RIGHT FRONT and PROX LEFT FRONT) of the robot front. The relevant information can be found in the GCTronic specification[^1]
 
 ![image](https://github.com/oliolioli/Robotics/assets/4264535/60756dc9-6ed8-4cfa-9c25-9c1cd0529279)
 
@@ -14,3 +22,5 @@ The following is a detailed analysis of the sensors (infrared distance sensors, 
 
 
 
+#### Footnotes ####
+[^1]: [Wiki GCtronic e-puck2](https://www.gctronic.com/doc/index.php?title=e-puck2)
