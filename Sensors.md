@@ -56,9 +56,10 @@ __
 ### Microphones ###
 
 <table>
-  <th>Test of the microphones during pass-by</th><th>Testing the microphones when rotating the e-puck</th>
-  <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2e56b042-a98d-4557-8f3a-a6d97d49c9fa"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/6735b862-ee47-41c7-89cf-91fef7a98777"></td>
-  </tr></table>
+  <th>Historam in front of red block (without letterboxing)</th><th>Test of the microphones during pass-by</th>
+  <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2e56b042-a98d-4557-8f3a-a6d97d49c9fa"></td><td></td>
+  </tr>
+</table>
 
 
 
