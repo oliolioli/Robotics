@@ -39,8 +39,8 @@ We place the robot on the bottom white edge of the paper and then let it vertica
 <table>
   <th colspan="2">move diagonally across the sheet with the coloured lines at an approximate angle of 45°</th>
   <tr>
-    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/5002bd56-23a8-4fdd-aabe-a7f4ae6ee316" height="65%" width="65%"></td>
-    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/a938e8e6-57ef-4455-aad4-de09f2cc36d3" height="65%" width="65%"></td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/5002bd56-23a8-4fdd-aabe-a7f4ae6ee316" height="70%" width="70%"></td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/a938e8e6-57ef-4455-aad4-de09f2cc36d3" height="70%" width="70%"></td>
   </tr>
 </table>
 
