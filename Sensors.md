@@ -72,12 +72,8 @@ In addition to the self-explanatory width and height attributes, **conf and labe
 <table>
   <th colspan="2">Recognition of a blue and yellow blocks</th>
   <tr>
-    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/8eb0aeaa-83b5-4055-a502-221718beca1e" alt=""></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/d36ae43b-3065-42da-90a5-01f94eed910a" alt=""></td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/8eb0aeaa-83b5-4055-a502-221718beca1e" alt="Recognition of a blue block"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/d36ae43b-3065-42da-90a5-01f94eed910a" alt="Recognition of a blue and yellow block"></td>
   </tr>
 </table>
-
-![image](https://github.com/oliolioli/Robotics/assets/4264535/82b0f217-c89d-4eb2-b4dd-e2eb247f9579)
-
-
 
 [^1]: [Wiki GCtronic e-puck2](https://www.gctronic.com/doc/index.php?title=e-puck2)
