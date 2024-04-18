@@ -12,7 +12,7 @@ We initialise the robot's sensors and calibrate the infrared sensors. We plot th
 
 <table>
   <tr>
-    <td>![image](https://github.com/oliolioli/Robotics/assets/4264535/60756dc9-6ed8-4cfa-9c25-9c1cd0529279)</td><td>![image](https://github.com/oliolioli/Robotics/assets/4264535/403a406f-dc51-4b47-b276-d04d071d8089)</td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/60756dc9-6ed8-4cfa-9c25-9c1cd0529279" alt=""></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/403a406f-dc51-4b47-b276-d04d071d8089" alt=""></td>
   </tr>
 </table>
 
