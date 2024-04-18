@@ -69,12 +69,15 @@ In addition to the self-explanatory width and height attributes, **conf and labe
 <table>
   <th colspan="2">Recognition of a blue and yellow blocks</th>
   <tr>
-    <td rowspan="2"></td>asdf
+    <td rowspan="2">1</td>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/8eb0aeaa-83b5-4055-a502-221718beca1e" alt="Recognition of a blue block" height="110%" width="110%"></td>
   </tr>
   <tr>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/d36ae43b-3065-42da-90a5-01f94eed910a" alt="Recognition of a blue and yellow block" height="110%" width="110%"></td>
   </tr>
 </table>
+
+<img src="https://github.com/oliolioli/Robotics/assets/4264535/4be117b2-b99e-454e-a871-61131cf616cf" alt="E-Puck Object recognition" height="70%" width="70%"><br/>
+<i>The treshold (here: 0.7) is crucial for object recognition and must be determined heuristically.</i>
 
 [^1]: [Wiki GCtronic e-puck2](https://www.gctronic.com/doc/index.php?title=e-puck2)
