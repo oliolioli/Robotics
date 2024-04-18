@@ -128,5 +128,8 @@ for y in range (119) :
 
 As soon as one of the three colours is detected, the system checks whether a certain detected colour occurs from a certain position on a sufficient area. In this case, we can assume that a coloured block has been detected as such. Then the robot light up depending on which colors are detected.
 
+https://github.com/oliolioli/Robotics/assets/4264535/6ef6fbd2-19ad-434a-bde5-63a94a192640
+
+
 
 [^1]: https://en.wikipedia.org/wiki/PID_controller
