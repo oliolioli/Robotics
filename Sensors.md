@@ -64,6 +64,9 @@ The microphones have different sensitivities, particularly with regard to their 
 
 We let the robot scan an environment of different coloured blocks at different distances, a black ball and another e-puck. The robot rotates around itself, saves the resulting images and creates a CSV document with 350 measurements (approximately two measurements per step). The resulting measurements contain the following information: _x_centre, y_centre, width, height, conf and label_, where x- and y_centre describe the detected centres of the respective objects.
 
-In addition to the self-explanatory width and height attributes, conf and label are of particular interest. The label assumes the values red block, green block, blue block or black block, but can also recognise black ball or epuck.
+In addition to the self-explanatory width and height attributes, **conf and label** are of particular interest. The label assumes the values red block, green block, blue block or black block, but can also recognise black ball or epuck.
+
+![image](https://github.com/oliolioli/Robotics/assets/4264535/4be117b2-b99e-454e-a871-61131cf616cf)
+
 
 [^1]: [Wiki GCtronic e-puck2](https://www.gctronic.com/doc/index.php?title=e-puck2)
