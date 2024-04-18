@@ -10,17 +10,6 @@ Exploring robotics at the  University of Fribourg, merging theory with practical
 
 
 
-https://github.com/oliolioli/Robotics/assets/4264535/18018da6-3946-477f-ae88-b451665aed25
-
-
-
-https://github.com/oliolioli/Robotics/assets/4264535/2693a1c7-5c7e-484e-b515-a5ade502ffd1
-
-
-
-https://github.com/oliolioli/Robotics/assets/4264535/e264dcfa-8b4c-4c31-a6ea-b20a95cde713
-
-
 
 ## Sensors
 
