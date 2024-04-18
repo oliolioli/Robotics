@@ -49,4 +49,5 @@ Checking the equilibrium using the last 30 average speeds against a certain thre
 simply not designed for obstacles that are too low. Furthermore, the two rearmost sensors (3, 4) had to be given a negative weighting d of -2. This ensures that the robot actually moves away from the obstacle after changing state and does not approach the same obstacle again.
 
 https://github.com/oliolioli/Robotics/assets/4264535/0f0dc9ea-8356-4ec1-b1bc-1f7502ccfeb0
-Approaching obstacles, stop and explore further
+
+Video: Approaching obstacles, stop and explore further
