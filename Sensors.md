@@ -26,10 +26,10 @@ There are three infrared floor sensors in the lower section at the front of the 
 
 <table>
   <tr>
-    <th>Floor sensors front and bottom view</th>
+    <th>Floor sensors front and bottom view</th><th>Colored lines for ground sensor testing</th>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/01f7d0ac-3de5-4c95-a83d-44bbb603cf02" alt="Floor sensors front view">
       <img src="https://github.com/oliolioli/Robotics/assets/4264535/2fbc87e7-bad2-4672-a514-2d734a0221df" alt="Floor sensors bottom view"></td>
-    <td><b>Colored lines for ground sensor testing</b><img src="https://github.com/oliolioli/Robotics/assets/4264535/bcce3666-e59a-404d-ac44-715f7c9af859 alt="Colored lines for ground sensor testing"></td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/bcce3666-e59a-404d-ac44-715f7c9af859 alt="Colored lines for ground sensor testing"></td>
   </tr>
 </table>
 
@@ -43,9 +43,6 @@ We place the robot on the bottom white edge of the paper and then let it vertica
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/a938e8e6-57ef-4455-aad4-de09f2cc36d3"></td>
   </tr>
 </table>
-
-We can clearly see the different sensitivity of the three individual floor sensors. 
-If we let the robot move diagonally across the sheet with the coloured lines at an approximate angle of 45° - from bottom left to top right in the middle - our measured values shift on the X-axis (step). This is because the three floor sensors on the front of the robot are all on the same horizontal line. Therefore, the above-mentioned shift in the respective sensor deflections occurs when the lines are crossed.
 
 
 
