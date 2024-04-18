@@ -68,6 +68,8 @@ robot . set_speed (2 , 2)
 
 https://github.com/oliolioli/Robotics/assets/4264535/74a5d4dd-158e-4719-96a9-7b2cbbef6fd0
 
+_Video: Following a line and do sharp turns_
+
 
 **💡 Learnings** 
 
@@ -90,5 +92,11 @@ In the following, an e-puck is to be optimised so that it follows the course of 
 - D - derivative (approximation of future error)
 
 PID controllers therefore represent a closed-loop control system, as past, current and even expected future errors are included in the calculation. The parameterisation of these parameters is not trivial: "simple to describe in principle, PID tuning is a difficult problem"[^1]. In the following, an attempt will be made to find ideal parameters so that the robot moves along the wall but does not touch it.
+
+https://github.com/oliolioli/Robotics/assets/4264535/ec4084f7-43d5-42b0-987f-2caaa104e5f8
+
+_Video: PID controlled block surrounding_
+
+
 
 [^1]: https://en.wikipedia.org/wiki/PID_controller
