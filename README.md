@@ -9,7 +9,6 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
   </tr>
 </table>
 
-💡 Unfortunately, due to the artificial lighting conditions, flickering in the video recordings was almost unavoidable. 📹
 
 ## Braitenberg vehicles ##
 
@@ -32,7 +31,7 @@ speedL = ( NORM_SPEED - dsL )
 
 https://github.com/oliolioli/Robotics/assets/4264535/0f0dc9ea-8356-4ec1-b1bc-1f7502ccfeb0</td><td>
 
-
+💡 Unfortunately, due to the artificial lighting conditions, flickering was almost unavoidable in these and the following video recordings. 📹
 
 
 ## Solution ##
