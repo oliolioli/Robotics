@@ -50,16 +50,15 @@ The generated plots clearly show that the two black lines (first and fourth line
 
 ### Initialising the camera ##
 
-<img src="https://github.com/oliolioli/Robotics/assets/4264535/f2f824b9-fce5-4a8a-8e58-3d4199ba4824" height="70%" width="70%">>
-Historam in front of red block (without letterboxing)
+<img src="https://github.com/oliolioli/Robotics/assets/4264535/f2f824b9-fce5-4a8a-8e58-3d4199ba4824" height="70%" width="70%">
+_Historam in front of red block (without letterboxing)_
 
 ### Microphones ###
 
-![image](https://github.com/oliolioli/Robotics/assets/4264535/6735b862-ee47-41c7-89cf-91fef7a98777)
-Test of the microphones during pass-by
-
-![image](https://github.com/oliolioli/Robotics/assets/4264535/ed603fa4-27b3-4a83-9cc7-f7137a2476ec)
-Testing the microphones when rotating the e-puck
+<table>
+  <th>Test of the microphones during pass-by</th><th>Testing the microphones when rotating the e-puck</th>
+  <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/6735b862-ee47-41c7-89cf-91fef7a98777"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/ed603fa4-27b3-4a83-9cc7-f7137a2476ec"></td>
+  </tr></table>
 
 
 
