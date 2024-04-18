@@ -57,8 +57,9 @@ _Historam in front of red block (without letterboxing)_
 
 <table>
   <th>Test of the microphones during pass-by</th><th>Testing the microphones when rotating the e-puck</th>
-  <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/6735b862-ee47-41c7-89cf-91fef7a98777"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/ed603fa4-27b3-4a83-9cc7-f7137a2476ec"></td>
+  <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2e56b042-a98d-4557-8f3a-a6d97d49c9fa"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/6735b862-ee47-41c7-89cf-91fef7a98777"></td>
   </tr></table>
+
 
 
 
