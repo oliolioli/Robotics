@@ -5,7 +5,7 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 <table>
   <tr>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/20e8ebbf-b4f4-4f52-a3ea-d492a5e463fd" alt="E-Puck robot, Image taken from https://e-puck.gctronic.com" width="50%" height="50%">
-</td><td>Sensors</td>
+</td><td>[Sensors](Sensors.md)</td>
   </tr>
 </table>
 
