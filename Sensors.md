@@ -44,6 +44,12 @@ We place the robot on the bottom white edge of the paper and then let it vertica
   </tr>
 </table>
 
+## Camera & microphones ##
 
+### Initialising the camera ##
+![image](https://github.com/oliolioli/Robotics/assets/4264535/f2f824b9-fce5-4a8a-8e58-3d4199ba4824)
+Historam in front of red block
+
+## object recognition via programming interface ##
 
 [^1]: [Wiki GCtronic e-puck2](https://www.gctronic.com/doc/index.php?title=e-puck2)
