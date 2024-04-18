@@ -50,4 +50,23 @@ simply not designed for obstacles that are too low. Furthermore, the two rearmos
 
 https://github.com/oliolioli/Robotics/assets/4264535/0f0dc9ea-8356-4ec1-b1bc-1f7502ccfeb0
 
-Video: Approaching obstacles, stop and explore further
+_Video: Approaching obstacles, stop and explore further_
+
+
+### Line following ###
+
+Two sensors are positioned on a line and one remaining sensor on the white background. In this way, it can be recognised whether the robot is still following the line or deviating from it.
+
+```python
+elif ( gs [ MID ] > 500 and gs [ LEFT ] < 500) :
+robot . set_speed (2 , 0)
+elif ( gs [ LEFT ] > 500 and gs [ RIGHT ] < 500) :
+robot . set_speed (0 , 2)
+else :
+robot . set_speed (2 , 2)
+```
+
+**💡 Learnings:** 
+
+In order to follow the given line even on right-angled bends, a fast turn to the left or right must be initiated as soon as such a turn is reached.
+must be initiated as soon as such a turn is reached. Such a sharp turn is tricky because all three sensors reach the same value at once, as they are all either on the line or have already left the bend. To deal with this, a counter counts 100 steps in each direction.
