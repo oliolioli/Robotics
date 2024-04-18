@@ -41,7 +41,7 @@ We place the robot on the bottom white edge of the paper and then let it vertica
   <tr>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/5002bd56-23a8-4fdd-aabe-a7f4ae6ee316" height="70%" width="70%"></td>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/a938e8e6-57ef-4455-aad4-de09f2cc36d3" height="70%" width="70%"></td>
-    <tr><td>The generated plots clearly show that the two black lines (first and fourth line) lead to impressive deflections of the sensors. Although the plotted curve also shows clearly visible deflections in the traverse of the remaining coloured lines, these are only between 1000 and 900 and are therefore very close to the values for pure white. To control a robot with floor markings, the clear black colour is therefore very suitable.</td></tr>
+    <tr><td rowspan="2">The generated plots clearly show that the two black lines (first and fourth line) lead to impressive deflections of the sensors. Although the plotted curve also shows clearly visible deflections in the traverse of the remaining coloured lines, these are only between 1000 and 900 and are therefore very close to the values for pure white. To control a robot with floor markings, the clear black colour is therefore very suitable.</td></tr>
   </tr>
 </table>
 
