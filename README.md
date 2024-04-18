@@ -9,7 +9,7 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
   </tr>
 </table>
 
-https://github-readme-stats.vercel.app/api/top-langs/?username=oliolioli&layout=compact
+
 
 ## Problem ##
 
@@ -18,4 +18,4 @@ https://github-readme-stats.vercel.app/api/top-langs/?username=oliolioli&layout=
 
 
 
-<img alt="top languages" src="https://
+<img alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oliolioli&layout=compact">
