@@ -21,8 +21,16 @@ The Braitenberg vehicle in the Lover version is designed to approach an obstacle
 
 https://github.com/oliolioli/Robotics/assets/4264535/0f0dc9ea-8356-4ec1-b1bc-1f7502ccfeb0
 
+Learnings:
 
-
+```
+proxR = ( a * prox_values [0] + b * prox_values [1] + c * prox_values [2] + d * prox_values [3]) / ( a + b + c + d )
+proxL = ( a * prox_values [7] + b * prox_values [6] + c * prox_values [5] + d * prox_values [4]) / ( a + b + c + d )
+dsR = ( NORM_SPEED * proxR ) / MAX_PROX
+dsL = ( NORM_SPEED * proxL ) / MAX_PROX
+speedR = ( NORM_SPEED - dsR )
+speedL = ( NORM_SPEED - dsL )
+```
 
 
 ## Solution ##
