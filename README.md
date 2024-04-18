@@ -19,7 +19,10 @@ See [Braitenberg vehicle](https://en.wikipedia.org/wiki/Braitenberg_vehicle) for
 
 The Braitenberg vehicle in the Lover version is designed to approach an obstacle it has spotted.
 
-https://github.com/oliolioli/Robotics/assets/4264535/0f0dc9ea-8356-4ec1-b1bc-1f7502ccfeb0
+<table>
+  <tr><td>https://github.com/oliolioli/Robotics/assets/4264535/0f0dc9ea-8356-4ec1-b1bc-1f7502ccfeb0</td><td>The values proxL and proxR, and therefore also dsL and dsR, must increase with approaching an obstacle. This ultimately reduces the speed of the corresponding motors and allows to approach obstacles.</td></tr>
+</table>
+  
 
 Learnings:
 
