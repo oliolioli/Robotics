@@ -36,7 +36,7 @@ speedL = ( NORM_SPEED - dsL )
 The Braitenberg vehicle of the Explorer type should not approach an obstacle like the previous type, but rather avoid obstacles. This is achieved by the simple reversal of the
 described above. If the sensor system recognises an obstacle, it is not approached but rather driven away from it. To do this, the motor control is simply reconfigured crosswise.
 
-### 🔎 Approaching obstacles, stop and explore further ###
+### Approaching obstacles, stop and explore further ###
 
 The two vehicle types should now switch back and forth between their states.
 To do this, it must be determined in a robust manner whether and when the approach is sufficiently balanced and the robot comes to a stop in front of the obstacle (behaviour is at equilibrium). It makes sense to model this behaviour as a finite state diagram.
@@ -77,3 +77,15 @@ state = " turn_left "
 elif ( gs [ MID ] > 500 and gs [ LEFT ] > 500 and gs [ RIGHT ] > 500) :
 state = " turn_right "
 ```
+
+
+### Wand following behaviour (PID: proportional-integral-derivative controller) ###
+
+In the following, an e-puck is to be optimised so that it follows the course of a wall using a [PID controller](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller) . A PID controller consists of three elements (P, I and D):
+- P - Proportional (actual error)
+- I - Integral (past error)
+- D - derivative (approximation of future error)
+
+PID controllers therefore represent a closed-loop control system, as past, current and even expected future errors are included in the calculation. The parameterisation of these parameters is not trivial: "simple to describe in principle, PID tuning is a difficult problem"[^1]. In the following, an attempt will be made to find ideal parameters so that the robot moves along the wall but does not touch it.
+
+[^1]: https://en.wikipedia.org/wiki/PID_controller
