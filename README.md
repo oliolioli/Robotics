@@ -3,6 +3,14 @@ Exploring robotics at the  University of Fribourg, merging theory with practical
 
 # Robot
 
+## Problem ##
+
+
+## Solution ##
+https://drive.google.com/file/d/10L-9LE8CBI6b6enJoej369WZbAujUm4E/view
+
+
+
 ## Sensors
 
 ![image](https://github.com/oliolioli/Robotics/assets/4264535/60756dc9-6ed8-4cfa-9c25-9c1cd0529279)
