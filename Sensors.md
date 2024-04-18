@@ -22,7 +22,7 @@ The noise of the sensors is clearly recognisable: The noise is particularly visi
 
 ## Infrared floor sensors ##
 
-There are three infrared floor sensors in the lower section at the front of the E-Puck.
+There are three infrared floor sensors in the lower section at the front of the E-Puck. We use the **robot.init ground()** function to test the response behaviour of the sensors.
 
 <table>
   <th>Floor sensors front and bottom view</th><th>Colored lines for ground sensor testing</th>
@@ -33,7 +33,7 @@ There are three infrared floor sensors in the lower section at the front of the 
   </tr>
 </table>
 
-We use the **robot.init ground()** function to test the response behaviour of the sensors. The value range of these sensors should **vary between 1000 (pure white) and 0 (black)**. A white sheet with coloured lines glued to it will serve as our test setup: 
+The value range of these sensors should **vary between 1000 (pure white) and 0 (black)**. A white sheet with coloured lines glued to it will serve as our test setup: 
 We place the robot on the bottom white edge of the paper and then let it vertically over all the lines. 
 
 <table>
@@ -51,6 +51,16 @@ The generated plots clearly show that the two black lines (first and fourth line
 ### Initialising the camera ##
 ![image](https://github.com/oliolioli/Robotics/assets/4264535/f2f824b9-fce5-4a8a-8e58-3d4199ba4824)
 Historam in front of red block
+
+### Microphones ###
+
+![image](https://github.com/oliolioli/Robotics/assets/4264535/6735b862-ee47-41c7-89cf-91fef7a98777)
+Test of the microphones during pass-by
+
+![image](https://github.com/oliolioli/Robotics/assets/4264535/ed603fa4-27b3-4a83-9cc7-f7137a2476ec)
+Testing the microphones when rotating the e-puck
+
+
 
 ## object recognition via programming interface ##
 
