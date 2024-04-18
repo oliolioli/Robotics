@@ -26,7 +26,9 @@ There are three infrared floor sensors in the lower section at the front of the 
 
 <table>
   <tr>
-    <td><b>Floor sensors front and bottom view</b><br/><img src="https://github.com/oliolioli/Robotics/assets/4264535/01f7d0ac-3de5-4c95-a83d-44bbb603cf02" alt="Floor sensors front view"><img src="https://github.com/oliolioli/Robotics/assets/4264535/2fbc87e7-bad2-4672-a514-2d734a0221df" alt="Floor sensors bottom view"></td>
+    <th>Floor sensors front and bottom view</th>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/01f7d0ac-3de5-4c95-a83d-44bbb603cf02" alt="Floor sensors front view">
+      <img src="https://github.com/oliolioli/Robotics/assets/4264535/2fbc87e7-bad2-4672-a514-2d734a0221df" alt="Floor sensors bottom view"></td>
     <td><b>Colored lines for ground sensor testing</b><img src="https://github.com/oliolioli/Robotics/assets/4264535/bcce3666-e59a-404d-ac44-715f7c9af859 alt="Colored lines for ground sensor testing"></td>
   </tr>
 </table>
@@ -35,7 +37,7 @@ We use the **robot.init ground()** function to test the response behaviour of th
 We place the robot on the bottom white edge of the paper and then let it vertically over all the lines. The generated plots clearly show that the two black lines (first and fourth line) lead to impressive deflections of the sensors. Although the plotted curve also shows clearly visible deflections in the traverse of the remaining coloured lines, these are only between 1000 and 900 and are therefore very close to the values for pure white. To control a robot with floor markings, the clear black colour is therefore very suitable.
 
 <table>
-  <th>move diagonally across the sheet with the coloured lines at an approximate angle of 45°</th>
+  <th colspan="2">move diagonally across the sheet with the coloured lines at an approximate angle of 45°</th>
   <tr>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/5002bd56-23a8-4fdd-aabe-a7f4ae6ee316"></td>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/a938e8e6-57ef-4455-aad4-de09f2cc36d3"></td>
