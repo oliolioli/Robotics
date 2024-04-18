@@ -9,11 +9,15 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
   </tr>
 </table>
 
-## Problem: Braitenberg vehicle - Lover version ##
+## Braitenberg vehicle - Lover version ##
 
 See [Braitenberg vehicle](https://en.wikipedia.org/wiki/Braitenberg_vehicle) for a short introduction.
 
+### Approaching obstacles ###
+
 The Braitenberg vehicle in the Lover version is designed to approach an obstacle it has spotted.
+
+https://github.com/oliolioli/Robotics/assets/4264535/d450f459-d72e-4f86-a283-89992cde3482
 
 
 
