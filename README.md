@@ -9,11 +9,11 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
   </tr>
 </table>
 
-
+<b>
 - [Braitenberg vehicles](#Braitenberg-vehicles)
 - [Line following](#Line-following)
 - [PID controlled wand following behaviour](#PID-controlled-wand-following-behaviour)
-
+</b>
 
 ## Braitenberg vehicles ##
 
@@ -102,6 +102,7 @@ PID controllers therefore represent a closed-loop control system, as past, curre
 https://github.com/oliolioli/Robotics/assets/4264535/ec4084f7-43d5-42b0-987f-2caaa104e5f8
 
 _Video: PID controlled block surrounding_
+
 
 
 
