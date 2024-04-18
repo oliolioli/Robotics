@@ -1,5 +1,6 @@
 # Robotics #
-Exploring robotics with EPFL developed [GCtronics E-Puck](https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2) at the University of Fribourg, merging theory with practical application.
+Exploring robotics with [GCtronics E-Puck](https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2).
+The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware and its software open-source.
 
 <table>
   <tr>
