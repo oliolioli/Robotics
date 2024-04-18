@@ -7,7 +7,11 @@ Exploring robotics at the  University of Fribourg, merging theory with practical
 
 
 ## Solution ##
-[![Robot in action]({image-url})](https://drive.google.com/file/d/10L-9LE8CBI6b6enJoej369WZbAujUm4E/view))
+
+
+
+https://github.com/oliolioli/Robotics/assets/4264535/18018da6-3946-477f-ae88-b451665aed25
+
 
 
 ## Sensors
