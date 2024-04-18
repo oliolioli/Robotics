@@ -46,12 +46,12 @@ We place the robot on the bottom white edge of the paper and then let it vertica
 
 The generated plots clearly show that the two black lines (first and fourth line) lead to impressive deflections of the sensors. Although the plotted curve also shows clearly visible deflections in the traverse of the remaining coloured lines, these are only between 1000 and 900 and are therefore very close to the values for pure white. To control a robot with floor markings, the clear black colour is therefore very suitable.
 
-## Camera & microphones ##
+## Camera and microphones ##
 
-### Initialising the camera ##
+### Initialising camera and microphones##
 
 <img src="https://github.com/oliolioli/Robotics/assets/4264535/f2f824b9-fce5-4a8a-8e58-3d4199ba4824" height="50%" width="50%"><br/>
-_Historam in front of red block (without letterboxing)_
+__
 
 ### Microphones ###
 
