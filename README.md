@@ -83,9 +83,9 @@ must be initiated as soon as such a turn is reached. Such a sharp turn is tricky
 
 ```python
 elif ( gs [ MID ] < 500 and gs [ LEFT ] < 500 and gs [ RIGHT ] < 500) :
-state = " turn_left "
+   state = " turn_left "
 elif ( gs [ MID ] > 500 and gs [ LEFT ] > 500 and gs [ RIGHT ] > 500) :
-state = " turn_right "
+   state = " turn_right "
 ```
 
 
@@ -110,19 +110,19 @@ To do this, the entire image area (array of (160x120 pixels)) captured using rob
 
 ```python
 for y in range (119) :
-for x in range (159) :
-if ( r [ y ][ x ] >= g [ y ][ x ] + 45 and r [ y ][ x ] >= b [ y ][ x ] + 45 and red_on == False ) :
-if ( check_red (x , y , r , g , b ) ) :
-red_on = True
-light_robot ()
-elif ( g [ y ][ x ] >= r [ y ][ x ] + 15 and g [ y ][ x ] >= b [ y ][ y ] + 15 and green_on == False ) :
-if ( check_green (x , y , r , g , b ) ) :
-green_on = True
-light_robot ()
-elif ( b [ y ][ x ] >= r [ y ][ x ] + 30 and b [ y ][ x ] >= g [ y ][ x ] + 30 and blue_on == False ) :
-if ( check_blue (x , y , r , g , b ) ) :
-blue_on = True
-light_robot ()
+   for x in range (159) :
+      if ( r [ y ][ x ] >= g [ y ][ x ] + 45 and r [ y ][ x ] >= b [ y ][ x ] + 45 and red_on == False ) :
+         if ( check_red (x , y , r , g , b ) ) :
+            red_on = True
+            light_robot ()
+   elif ( g [ y ][ x ] >= r [ y ][ x ] + 15 and g [ y ][ x ] >= b [ y ][ y ] + 15 and green_on == False ) :
+      if ( check_green (x , y , r , g , b ) ) :
+         green_on = True
+         light_robot ()
+   elif ( b [ y ][ x ] >= r [ y ][ x ] + 30 and b [ y ][ x ] >= g [ y ][ x ] + 30 and blue_on == False ) :
+      if ( check_blue (x , y , r , g , b ) ) :
+         blue_on = True
+         light_robot ()
 ```
 
 
