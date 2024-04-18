@@ -1,6 +1,10 @@
 # Robotics #
 Exploring robotics at the  University of Fribourg, merging theory with practical application (Python on GCtronics E-Puck)
 
+![epuck](https://github.com/oliolioli/Robotics/assets/4264535/20e8ebbf-b4f4-4f52-a3ea-d492a5e463fd)
+
+
+
 # Robot #
 
 ## Sensors ##
