@@ -50,10 +50,8 @@ The generated plots clearly show that the two black lines (first and fourth line
 
 ### Initialising camera and microphones##
 
-### Microphones ###
-
 <table>
-  <th>Historam in front of red block (without letterboxing)</th><th>Test of the microphones during pass-by</th>
+  <th>Histogram in front of red block (without letterboxing)</th><th>Test of the microphones during pass-by</th>
   <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/f2f824b9-fce5-4a8a-8e58-3d4199ba4824" height="50%" width="50%"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2e56b042-a98d-4557-8f3a-a6d97d49c9fa"></td>
   </tr>
 </table>
