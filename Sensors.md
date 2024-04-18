@@ -1,7 +1,7 @@
 # E-Puck Sensors #
 
 The following is a detailed analysis of the following sensors
-- infrared distance sensor
+- [anchor](#infrared-distance-sensor)
 - infrared floor sensors
 - camera, microphones
 - object recognition via programming interface
