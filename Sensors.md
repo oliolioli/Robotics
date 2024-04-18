@@ -67,6 +67,16 @@ We let the robot scan an environment of different coloured blocks at different d
 In addition to the self-explanatory width and height attributes, **conf and label** are of particular interest. The label assumes the values red block, green block, blue block or black block, but can also recognise black ball or epuck.
 
 <img src="https://github.com/oliolioli/Robotics/assets/4264535/4be117b2-b99e-454e-a871-61131cf616cf" alt="E-Puck Object recognition" height="70%" width="70%"><br/>
-<i>Different tresholds (here: 0.7) are crucial for object recognition and must be determined heuristically.</i>
+<i>The treshold (here: 0.7) is crucial for object recognition and must be determined heuristically.</i>
+
+<table>
+  <th>Recognition of a blue block</th><th>Recognition of a yellow block</th>
+  <tr>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/8eb0aeaa-83b5-4055-a502-221718beca1e
+" alt=""></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/d36ae43b-3065-42da-90a5-01f94eed910a
+" alt=""></td>
+  </tr>
+</table>
+
 
 [^1]: [Wiki GCtronic e-puck2](https://www.gctronic.com/doc/index.php?title=e-puck2)
