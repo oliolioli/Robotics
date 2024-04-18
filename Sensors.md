@@ -54,6 +54,8 @@ We place the robot on the bottom white edge of the paper and then let it vertica
   <th>Histogram in front of red block (without letterboxing)</th><th>Test of the microphones during pass-by</th>
   <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/f2f824b9-fce5-4a8a-8e58-3d4199ba4824" height="50%" width="50%"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2e56b042-a98d-4557-8f3a-a6d97d49c9fa"></td>
   </tr>
+  <tr><td colspan="2"><i>The colour recognition delivers extremely different results, red is best recognised.
+The microphones have different sensitivities, particularly with regard to their different orientation and position.</i></tr>
 </table>
 
 
