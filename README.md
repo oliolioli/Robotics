@@ -13,7 +13,7 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 - [Braitenberg vehicles](#Braitenberg-vehicles)
 - [Line following](#Line-following)
 - [PID controlled wand following behaviour](#PID-controlled-wand-following-behaviour)
-- 
+- [Colour recognition](#Colour-recognition)
 
 ## Braitenberg vehicles ##
 
