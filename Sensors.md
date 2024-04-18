@@ -76,7 +76,8 @@ In addition to the self-explanatory width and height attributes, **conf and labe
   </tr>
 </table>
 
-![Uploading image.png…]()
+![image](https://github.com/oliolioli/Robotics/assets/4264535/82b0f217-c89d-4eb2-b4dd-e2eb247f9579)
+
 
 
 [^1]: [Wiki GCtronic e-puck2](https://www.gctronic.com/doc/index.php?title=e-puck2)
