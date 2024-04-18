@@ -89,7 +89,7 @@ state = " turn_right "
 ```
 
 
-### Wand following behaviour (PID: proportional-integral-derivative controller) ###
+### Wand following behaviour (PID: proportional integral derivative controller) ###
 
 In the following, an e-puck is to be optimised so that it follows the course of a wall using a [PID controller](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller) . A PID controller consists of three elements (P, I and D):
 - P - Proportional (actual error)
