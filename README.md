@@ -4,7 +4,6 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 
 | Syntax | Description |
 | ----------- | ----------- |
-| Header | Title |
 
 - [Braitenberg vehicles](#Braitenberg-vehicles)
 - [Line following](#Line-following)
