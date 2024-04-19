@@ -2,6 +2,10 @@
 Exploring robotics with [GCtronics E-Puck](https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2).
 The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware and its software open-source.
 
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
 - [Braitenberg vehicles](#Braitenberg-vehicles)
 - [Line following](#Line-following)
 - [PID controlled wand following behaviour](#PID-controlled-wand-following-behaviour)
