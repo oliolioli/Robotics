@@ -12,3 +12,9 @@ a lateral signal leaves its own signature on the four audio sensors. For these r
 1. testing the audio sensors and determining a setup,
 2. generating as many qualitative data sets as possible and extracting them,
 3. training and testing the model
+
+## Implementation ##
+### Checking the setup and audio sensors ###
+The first test of the four audio sensors revealed that the API supplied did not allow sufficient difference to be detected in the four different inputs to be able to generate different data sets per sensor at all. For this reason, the decision was made to add additional 'ears' to the four audio sensors of the e-puck using 3D printing, which can be placed on the e-puck and include the four audio sensors. 
+
+Partition walls are fitted between these individual 'ears', which are additionally insulated with additional filling material. In figure ... (without ears) and Figure ... (with ears) the improvement is clear: the individual audio tracks are much further apart and there is hardly any overlap. Noise interference has also been minimised: the four audio tracks can be distinguished much more clearly, making their so-called features more distinct and facilitating machine learning.
