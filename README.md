@@ -130,6 +130,51 @@ As soon as one of the three colours is detected, the system checks whether a cer
 
 https://github.com/oliolioli/Robotics/assets/4264535/6ef6fbd2-19ad-434a-bde5-63a94a192640
 
+## Object recognition ##
+
+The object recognition API recognises a wide variety of objects (see above). As the object recognition API not only provides the height and width but also the centre centre of the detected object in the X-axis and the Y-axis, we can determine the distance. After an initial calibration, we receive the object recognition information that corresponds to a desired distance of the target ten centimetres.
+
+```python
+# if distance ok, stay
+if ((constMinHeight < meanH and meanH < constMaxHeight) or (constMinWidth < meanW and meanW < constMaxWidth)):
+    print("Height and width ok - correct position")
+    ds_backandforth = 0
+# too far away, forward and love 
+elif ((meanH < constMinHeight) and (meanW < constMinWidth)):
+    print("Forward")
+    ds_backandforth = 1
+# too near, go back    
+else:
+    print("Backward")
+    ds_backandforth = -0.8
+```
+
+The backward movement is deliberately chosen to be smaller, as the object has already been found. Therefore we no longer need to find an object, but rather only have to drive a little further backwards in order to move away from the object. Within a certain tolerance range, the robot finally stops and no longer moves.
+
+```python
+# if mean of item.x_center < 90 (plus margin)  block is on left side 
+if (meanXCenter < 80):
+    print("Block on left")
+    ds_left = -0.2
+    ds_right = 0.2
+# or on the right side
+elif (meanXCenter > 100):
+    print("Block on right")
+    ds_left = 0.2
+    ds_right = -0.2
+else:
+    print("Block in front")
+    ds_left = 0
+    ds_right = 0
+```
+
+Now the values of the forward and backward movement ds_backandforth and any left or right rotation ds_left and ds_right are added to the left and right motor speeds. In this way, the robot moves towards or away from a more distant obstacle.
+
+**💡 Learnings** 
+Finding an ideal tolerance range at which the robot would ultimately come to a standstill was the  the most difficult part of this implementation. The sensors provide such volatile data that the robot tended to correct far too quickly and too much. The use of average values using an array was useful for smoothing this data.
+Finally, a sufficiently large tolerance also had to be selected so that the robot could doesn't correct its position due to sensor outliers.
+
+## Communicate between robots ##
 
 
 [^1]: https://en.wikipedia.org/wiki/PID_controller
