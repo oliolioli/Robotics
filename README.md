@@ -1,6 +1,6 @@
 <table>
    <tr>
-      <td><h1>Exploring robotics with <a href="https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2">GCtronics E-Puck</a>.</h1>
+      <td><h1>Exploring robotics with <a href="https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2">GCtronics E-Puck</a></h1>
 The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware and its software open-source.
          <p/>
          <br>
