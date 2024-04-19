@@ -34,7 +34,7 @@ speedR = ( NORM_SPEED - dsR )
 speedL = ( NORM_SPEED - dsL )
 ```
 
-💡 Unfortunately, due to the artificial lighting conditions, flickering was almost unavoidable in these and the following video recordings. 📹
+_💡 Unfortunately, due to the artificial lighting conditions, flickering was almost unavoidable in these and the following video recordings. 📹_
 
 ### Exploring (avoiding instead of approaching obstacles) ###
 
