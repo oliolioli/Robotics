@@ -14,6 +14,8 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 - [Line following](#Line-following)
 - [PID controlled wand following behaviour](#PID-controlled-wand-following-behaviour)
 - [Recognise coloured blocks](#Recognise-coloured-blocks)
+- [Object recognition](#Object-recognition)
+- [Communicate between robots](#Communicate-between-robots)
 
 ## Braitenberg vehicles ##
 
@@ -27,7 +29,7 @@ The following Braitenberg vehicle is designed to approach an obstacle it has spo
 
 ```python
 proxR = ( a * prox_values [0] + b * prox_values [1] + c * prox_values [2] + d * prox_values [3]) / ( a + b + c + d )
-proxL = ( a * prox_values [7] + b * prox_values [6] + c * prox_values [5] + d * prox_values [4]) / ( a + b + c + d )
+proxL = ( a * prox_values [7] + b * prox_Object recognitionvalues [6] + c * prox_values [5] + d * prox_values [4]) / ( a + b + c + d )
 dsR = ( NORM_SPEED * proxR ) / MAX_PROX
 dsL = ( NORM_SPEED * proxL ) / MAX_PROX
 speedR = ( NORM_SPEED - dsR )
@@ -164,7 +166,7 @@ elif (meanXCenter > 100):
     ds_right = -0.2
 else:
     print("Block in front")
-    ds_left = 0
+    ds_left = 0Communicate between robots
     ds_right = 0
 ```
 
