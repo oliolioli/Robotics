@@ -18,7 +18,7 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 - [PID controlled wand following behaviour](#PID-controlled-wand-following-behaviour)
 - [Recognise coloured blocks](#Recognise-coloured-blocks)
 - [Object recognition](#Object-recognition)
-- [Communicate between robots](#Communicate-between-robots)
+- [Communicate between robots with pooling messages](#Communicate-between-robots-with-pooling-messages)
 
      ↧ ↧ ↧
  </b>
@@ -145,7 +145,7 @@ The object recognition API recognises a wide variety of objects (see above). As 
 ```python
 # if distance ok, stay
 if ((constMinHeight < meanH and meanH < constMaxHeight) or (constMinWidth < meanW and meanW < constMaxWidth)):
-    print("Height and width ok - correct position")
+    print("Height and width ok - corrCommunicate between robots with pooling messagesect position")
     ds_backandforth = 0
 # too far away, forward and love 
 elif ((meanH < constMinHeight) and (meanW < constMinWidth)):
@@ -185,12 +185,11 @@ https://github.com/oliolioli/Robotics/assets/4264535/bafca50c-4494-42a7-b0a7-4fb
 Finding an ideal tolerance range at which the robot would ultimately come to a standstill was the  the most difficult part of this implementation. The sensors provide such volatile data that the robot tended to correct far too quickly and too much. The use of average values using an array was useful for smoothing this data.
 Finally, a sufficiently large tolerance also had to be selected so that the robot could doesn't correct its position due to sensor outliers.
 
-## Communicate between robots: pooling messages ##
+## Communicate between robots with pooling messages ##
 
-With the communication module, which is loaded with the init client** communication() function**, the e-pucks communicate pucks do not communicate directly with each other via a communication server, but they can send messages to a shared server with **send_msg()** and receive messages from this server with **robot.receive msg()**.
+With the communication module, which is loaded with the init client **communication() function**, the e-pucks communicate pucks do not communicate directly with each other via a communication server, but they can send messages to a shared server with **send_msg()** and receive messages from this server with **robot.receive msg()**.
 
-With established communication, robots can synchronise their sensor data and thus check whether they are in the same environment, for example. The coloured blocks can be easily
-recognised and categorised using the object recognition API discussed above categorised and matched with other robots.
+With established communication, robots can synchronise their sensor data and thus check whether they are in the same environment, for example. The coloured blocks can be easily recognised and categorised using the object recognition API discussed above categorised and matched with other robots.
 
 If the corresponding bit is set to one, otherwise it remains at zero. This gives us a simple code that reflects the blocks recognised by the robot in its environment. For example, a single red block would be displayed with the code 100, a green block with a blue block with 011. Messages are only sent if coloured blocks are actually detected. This keeps the message volume as small as possible and makes it easier to interpret, as the recognised environment must be compared with the environment recognised by the neighbouring e-puck. If the robot now receives the same message as it sends, it sees the same objects in its environment. If both robots recognise the same configuration, all their LEDs are activated.
 
