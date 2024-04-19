@@ -3,7 +3,9 @@
 <table>
    <tr>
       <td><h3>Exploring robotics with <a href="https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2">GCtronics E-Puck</a>.</h3>
-The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware and its software open-source.<p/>
+The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware and its software open-source.
+         <p/>
+         <br>
       <b>🚩 <a href="https://github.com/oliolioli/Robotics/blob/main/Sensors.md">Sensor overview and analysis</a></b>
       </td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/20e8ebbf-b4f4-4f52-a3ea-d492a5e463fd" alt="E-Puck robot, Image taken from https://e-puck.gctronic.com"></td><td></td>
    </tr>
@@ -95,7 +97,7 @@ elif ( gs [ MID ] > 500 and gs [ LEFT ] > 500 and gs [ RIGHT ] > 500) :
 ## PID controlled wand following behaviour ##
 
 In the following, an e-puck is to be optimised so that it follows the course of a wall using a [PID controller](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller) . A PID controller consists of three elements (P, I and D):
-<b>
+<b><b>🚩 <a href="https://github.com/oliolioli/Robotics/blob/main/Sensors.md">Sensor overview and analysis</a></b>
 - P - Proportional (actual error)
 - I - Integral (past error)
 - D - derivative (approximation of future error)
