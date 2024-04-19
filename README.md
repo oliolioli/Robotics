@@ -2,15 +2,12 @@
 
 <table>
    <tr>
-      <td><h2>Exploring robotics with [GCtronics E-Puck](https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2).</h2>
+      <td><h2>Exploring robotics with <a href="https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2">GCtronics E-Puck</a>.</h2>
 The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware and its software open-source.</td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/20e8ebbf-b4f4-4f52-a3ea-d492a5e463fd" alt="E-Puck robot, Image taken from https://e-puck.gctronic.com"><b>🚩 <a href="https://github.com/oliolioli/Robotics/blob/main/Sensors.md">Sensor overview and anaylsis</a></b></td><td></td>
    </tr>
 </table>
 
-Exploring robotics with [GCtronics E-Puck](https://www.epfl.ch/labs/mobots/robots-technologies/e-puck2).
-The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware and its software open-source.
-
-<b>Problems and solutions:
+<b>Problems and solutions:</b>
 
 - [Braitenberg vehicles](#Braitenberg-vehicles)
 - [Line following](#Line-following)
@@ -18,11 +15,6 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 - [Recognise coloured blocks](#Recognise-coloured-blocks)
 - [Object recognition](#Object-recognition)
 - [Communicate between robots](#Communicate-between-robots)
-
-<img src="https://github.com/oliolioli/Robotics/assets/4264535/20e8ebbf-b4f4-4f52-a3ea-d492a5e463fd" alt="E-Puck robot, Image taken from https://e-puck.gctronic.com" width="30%" height="30%">
-
-🚩 <a href="https://github.com/oliolioli/Robotics/blob/main/Sensors.md">Sensor overview and anaylsis</a></b>
-
 
 ## Braitenberg vehicles ##
 
