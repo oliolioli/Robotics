@@ -171,6 +171,9 @@ else:
 
 Now the values of the forward and backward movement ds_backandforth and any left or right rotation ds_left and ds_right are added to the left and right motor speeds. In this way, the robot moves towards or away from a more distant obstacle.
 
+https://github.com/oliolioli/Robotics/assets/4264535/bafca50c-4494-42a7-b0a7-4fb7abd72ce9
+
+
 **💡 Learnings** 
 Finding an ideal tolerance range at which the robot would ultimately come to a standstill was the  the most difficult part of this implementation. The sensors provide such volatile data that the robot tended to correct far too quickly and too much. The use of average values using an array was useful for smoothing this data.
 Finally, a sufficiently large tolerance also had to be selected so that the robot could doesn't correct its position due to sensor outliers.
