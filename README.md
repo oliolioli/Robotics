@@ -20,7 +20,7 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 - [Object recognition](#Object-recognition)
 - [Communicate between robots](#Communicate-between-robots)
 
- ↧ ↧ ↧
+     ↧ ↧ ↧
  </b>
 
 ## Braitenberg vehicles ##
