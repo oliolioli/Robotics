@@ -5,14 +5,20 @@
 We want the e-puck to learn and recognise the angle and distance to an incoming, predefined audio signal in a given environment using machine learning. As soon as the predefined sound is played at a random location in the predefined setup environment, the e-puck should move towards the sound source.
 
 <table>
-  <th>Predefined setup environment</th><th>four audio sensors</th>
+  <th>Predefined setup environment</th><th>The four audio sensors</th>
   <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4d151379-55fb-431a-b09a-e551eae46512" alt="Setup environment for machine learning"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/b3172891-a936-430f-a026-218e3d392d9f" alt="Audio sensors"></td></tr>
 </table>
 
 
 ## Solution strategy ##
 
-To solve this problem, the basic consideration is that the four audio sensors of the e-puck must necessarily receive an audio signal at different levels and at different times. Audio signals played at a certain angle to the side of the e-puck can also be recognised in principle by their pattern. Figures 4.22, 4.23 and 4.24, for example, clearly show the extent to which a lateral signal leaves its own signature on the four audio sensors. For these reasons, the e-puck can in principle be taught from which angle and from which distance an audio signal is sent using machine learning. As a solution strategy, this problem can be divided into various sub-problems:
+To solve this problem, the basic consideration is that the four audio sensors of the e-puck must necessarily receive an audio signal at different levels and at different times. Audio signals played at a certain angle to the side of the e-puck can also be recognised in principle by their pattern. Figures 4.22, 4.23 and 4.24, for example, clearly show the extent to which a lateral signal leaves its own signature on the four audio sensors. 
+
+![image](https://github.com/oliolioli/Robotics/assets/4264535/f4d77088-b57b-4b4e-8939-ab7f0dcaf8ca) ![image](https://github.com/oliolioli/Robotics/assets/4264535/7091a5df-237a-4bf5-bc37-71761707b5a2) ![image](https://github.com/oliolioli/Robotics/assets/4264535/70e5e19d-73ea-476e-8006-fd4992ff02ae)
+
+
+
+For these reasons, the e-puck can in principle be taught from which angle and from which distance an audio signal is sent using machine learning. As a solution strategy, this problem can be divided into various sub-problems:
 
 1. testing the audio sensors and determining a setup,
 2. generating as many qualitative data sets as possible and extracting them,
