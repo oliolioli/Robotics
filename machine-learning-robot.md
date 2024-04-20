@@ -39,7 +39,7 @@ The two models created, Random_forest_model_distance.pkl and Random_forest_model
 With the RandomForest created by SciKit, we consistently obtain very satisfactory results. In Table 3.1 below, we can see that the e-puck only misjudges a played sound that is sixteen centimetres away in five out of a hundred cases. And this misjudgement is only 18°. Although the error rate increases with increasing distance, remarkably it is completely wrong in very few cases
 and in most cases only by 18°.
 
-| ****     | **Korrekt** | **18°** | **36°** | **54°** | **Komplett falsch** |
+|          | **Correct** | **18°** | **36°** | **54°** | **Completely wrong** |
 |---------:|------------:|--------:|--------:|--------:|--------------------:|
 | **16cm** | 95\%        | 5\%     | 0\%     | 0\%     | 0\%                 |
 | **32cm** | 31\%        | 57\%    | 6\%     | 5\%     | 1\%                 |
