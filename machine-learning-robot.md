@@ -5,7 +5,7 @@
 We want the e-puck to learn and recognise the angle and distance to an incoming, predefined audio signal in a given environment using machine learning. As soon as the predefined sound is played at a random location in the predefined setup environment, the e-puck should move towards the sound source.
 
 <table>
-  <tr><td>![image](https://github.com/oliolioli/Robotics/assets/4264535/4d151379-55fb-431a-b09a-e551eae46512)</td><td>![image](https://github.com/oliolioli/Robotics/assets/4264535/b3172891-a936-430f-a026-218e3d392d9f)</td></tr>
+  <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4d151379-55fb-431a-b09a-e551eae46512" alt="Setup environment for machine learning"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/b3172891-a936-430f-a026-218e3d392d9f" alt="Audio sensors"></td></tr>
 </table>
 
 
