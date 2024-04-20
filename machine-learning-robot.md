@@ -43,3 +43,7 @@ and in most cases only by 18°.
 
 The live_test.py script can be used to test the model live with the e-puck. To do this, the inputs to the four audio sensors are read out as in the sound_extractor.py script
 and analysed for their features. These values can then be passed to the angle and distance model using the predict() function. The return values of the models then lead to the corresponding control of the motors of the e-puck in order to approximate the audio source in terms of angle and distance.
+
+## Conclusion ##
+
+We investigated whether machine learning can be used to teach an e-puck to estimate the angle and distance of an audio signal. At the beginning, there were justified doubts about this endeavour. Nevertheless, this endeavour was actually relatively successful. With the created data sets, two valid models could be created that proved to be solid. Not only was it possible to reliably estimate the angle to the audio source, which was considered simpler, but also the distance to the audio source.
