@@ -14,7 +14,10 @@ We want the e-puck to learn and recognise the angle and distance to an incoming,
 
 To solve this problem, the basic consideration is that the four audio sensors of the e-puck must necessarily receive an audio signal at different levels and at different times. Audio signals played at a certain angle to the side of the e-puck can also be recognised in principle by their pattern. Figures 4.22, 4.23 and 4.24, for example, clearly show the extent to which a lateral signal leaves its own signature on the four audio sensors. 
 
-![image](https://github.com/oliolioli/Robotics/assets/4264535/f4d77088-b57b-4b4e-8939-ab7f0dcaf8ca) ![image](https://github.com/oliolioli/Robotics/assets/4264535/7091a5df-237a-4bf5-bc37-71761707b5a2) ![image](https://github.com/oliolioli/Robotics/assets/4264535/70e5e19d-73ea-476e-8006-fd4992ff02ae)
+<table>
+  <tr><img src="https://github.com/oliolioli/Robotics/assets/4264535/f4d77088-b57b-4b4e-8939-ab7f0dcaf8ca"><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/7091a5df-237a-4bf5-bc37-71761707b5a2"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/70e5e19d-73ea-476e-8006-fd4992ff02ae"></td></tr>
+</table>
+
 
 
 
