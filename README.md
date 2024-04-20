@@ -106,7 +106,7 @@ A PID controller consists of three elements (P, I and D):
 - D - derivative (approximation of future error)
 </b>
 PID controllers therefore represent a closed-loop control system, as past, current and even expected future errors are included in the calculation.
-The parameterisation of these parameters is not trivial:
+The parameterisation of these parameters is not trivial:</br>
 
 "simple to describe in principle, PID tuning is a difficult problem".[^1]
 
