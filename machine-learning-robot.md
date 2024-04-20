@@ -9,11 +9,11 @@ We want the e-puck to learn and recognise the angle and distance to an incoming,
   <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4d151379-55fb-431a-b09a-e551eae46512" alt="Setup environment for machine learning"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/b3172891-a936-430f-a026-218e3d392d9f" alt="Audio sensors"></td></tr>
 </table>
 
-A simple beep was selected as the audio signal. The following setup was selected to generate the actual data sets: The e-puck stands statically in the centre of three circles with a radius of sixteen, 32 and 48cm. These three circles are divided into sectors of eighteen degrees, resulting in twenty different sectors per circle (20*18°=360°). These circles and the division into sectors are drawn on a large sheet of paper and guarantee a constant environment. While the e-puck is placed statically in the centre, a constant sound (in all directions) is emitted at the respective points of the circles using an audio device.
+A simple beep was selected as the audio signal. The following setup was selected to generate the actual data sets: The e-puck stands statically in the centre of three circles with a radius of sixteen, 32 and 48cm. These three circles are divided into sectors of eighteen degrees, resulting in **twenty different sectors per circle (20*18°=360°)**. These circles and the division into sectors are drawn on a large sheet of paper and guarantee a constant environment. While the e-puck is placed statically in the centre, a constant sound (in all directions) is emitted at the respective points of the circles using an audio device.
 
 ## Solution strategy ##
 
-To solve this problem, the basic consideration is that the four audio sensors of the e-puck must necessarily receive an audio signal at different levels and at different times. Audio signals played at a certain angle to the side of the e-puck can also be recognised in principle by their pattern. The following figures clearly show the extent to which a** lateral signal leaves its own signature on the four audio sensors**.
+To solve this problem, the basic consideration is that the four audio sensors of the e-puck must necessarily receive an audio signal at different levels and at different times. Audio signals played at a certain angle to the side of the e-puck can also be recognised in principle by their pattern. The following figures clearly show the extent to which a **lateral signal leaves its own signature on the four audio sensors**.
 
 <table>
   <tr>
@@ -59,16 +59,15 @@ The **sound_extractor.py** script then **extracts the individual tracks of the a
 
 
 ### Training and testing the model ###
-Now the software SciKit[^1] is used, which can be used to create so-called random forests[^2]. Using the **ia.py** script, both _angle_all.csv_ and _distance_all.csv_ files are now processed individually by hand. First, the data is sorted randomly. Then **80% **of the data is used to **train the so-called RandomForest** (_train_). The remaining **20%** is used for **later validation **(_test_).
+Now the software SciKit[^1] is used, which can be used to create so-called random forests[^2]. Using the **ia.py** script, both _angle_all.csv_ and _distance_all.csv_ files are now processed individually by hand. First, the data is sorted randomly. Then **80%** of the data is used to **train the so-called RandomForest** (_train_). The remaining **20%** is used for **later validation** (_test_).
 
-The first line of each data set and the last eight lines of each data set (with the 2*4 features) are now written to variables y_train and x_train. These two variables are now transferred to the generated decision tree using the fit() function. The decision tree thus receives the information about the angle or distance and the corresponding eight features. With this information, the various models can now be generated and the most promising can finally be selected for classification tasks[9]. This work is done for us by the Python library SciKit[11].
+The first line of each data set and the last eight lines of each data set (with the 2*4 features) are now written to **variables y_train and x_train**. These two variables are now transferred to the **generated decision tree** using the **fit()** function. The decision tree thus receives the information about the angle or distance and the corresponding eight features. With this information, the various models can now be generated and the most promising can finally be selected for classification tasks (see [^2]). This work is done for us by the [Python library SciKit](https://github.com/scikit-learn/scikit-learn).
 
 ## Validation ##
 
 ### Automatic validation ###
-The two models created, Random_forest_model_distance.pkl and Random_forest_model_angle.pkl, can now also be validated using the ia.py script, which checks tests against predictions and outputs the corresponding error.
-With the RandomForest created by SciKit, we consistently obtain very satisfactory results. In Table 3.1 below, we can see that the e-puck only misjudges a played sound that is sixteen centimetres away in five out of a hundred cases. And this misjudgement is only 18°. Although the error rate increases with increasing distance, remarkably it is completely wrong in very few cases
-and in most cases only by 18°.
+The two models created, **Random_forest_model_distance.pkl** and **Random_forest_model_angle.pkl**, can now also be validated using the **ia.py** script, which **checks tests against predictions and outputs the corresponding error**.
+With the RandomForest created by SciKit, we consistently obtain very satisfactory results. In Table below, we can see that the e-puck only misjudges a played sound that is sixteen centimetres away in five out of a hundred cases. And this misjudgement is only 18°. Although the error rate increases with increasing distance, remarkably it is completely wrong in very few cases and in most cases only by 18°.
 
 |          | **Correct** | **18°** | **36°** | **54°** | **Completely wrong** |
 |---------:|------------:|--------:|--------:|--------:|--------------------:|
@@ -76,10 +75,11 @@ and in most cases only by 18°.
 | **32cm** | 31\%        | 57\%    | 6\%     | 5\%     | 1\%                 |
 | **48cm** | 25\%        | 28\%    | 19\%    | 9\%     | 19\%                |
 
+
 ### Manual validation ###
 
-The live_test.py script can be used to test the model live with the e-puck. To do this, the inputs to the four audio sensors are read out as in the sound_extractor.py script
-and analysed for their features. These values can then be passed to the angle and distance model using the predict() function. The return values of the models then lead to the corresponding control of the motors of the e-puck in order to approximate the audio source in terms of angle and distance.
+The **live_test.py** script can be used to test the model live with the e-puck. To do this, the inputs to the four audio sensors are read out as in the sound_extractor.py script
+and analysed for their features. These values can then be passed to the angle and distance model using the **predict()** function. The return values of the models then lead to the corresponding control of the motors of the e-puck in order to approximate the audio source in terms of angle and distance.
 
 ## Conclusion ##
 
