@@ -9,10 +9,11 @@ We want the e-puck to learn and recognise the angle and distance to an incoming,
   <tr><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4d151379-55fb-431a-b09a-e551eae46512" alt="Setup environment for machine learning"></td><td><img src="https://github.com/oliolioli/Robotics/assets/4264535/b3172891-a936-430f-a026-218e3d392d9f" alt="Audio sensors"></td></tr>
 </table>
 
+A simple beep was selected as the audio signal. The following setup was selected to generate the actual data sets: The e-puck stands statically in the centre of three circles with a radius of sixteen, 32 and 48cm. These three circles are divided into sectors of eighteen degrees, resulting in twenty different sectors per circle (20*18°=360°). These circles and the division into sectors are drawn on a large sheet of paper and guarantee a constant environment. While the e-puck is placed statically in the centre, a constant sound (in all directions) is emitted at the respective points of the circles using an audio device.
 
 ## Solution strategy ##
 
-To solve this problem, the basic consideration is that the four audio sensors of the e-puck must necessarily receive an audio signal at different levels and at different times. Audio signals played at a certain angle to the side of the e-puck can also be recognised in principle by their pattern. The following figures clearly show the extent to which a lateral signal leaves its own signature on the four audio sensors.
+To solve this problem, the basic consideration is that the four audio sensors of the e-puck must necessarily receive an audio signal at different levels and at different times. Audio signals played at a certain angle to the side of the e-puck can also be recognised in principle by their pattern. The following figures clearly show the extent to which a** lateral signal leaves its own signature on the four audio sensors**.
 
 <table>
   <tr>
@@ -48,9 +49,6 @@ Partition walls are fitted between these individual 'ears', which are additional
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4be73374-f5cc-4012-85bc-bdd3e09f0a5a"></td>
   </tr>
 </table>
-
-
-A simple beep was selected as the audio signal. The following setup was selected to generate the actual data sets: The e-puck stands statically in the centre of three circles with a radius of sixteen, 32 and 48cm. These three circles are divided into sectors of eighteen degrees, resulting in twenty different sectors per circle (20*18°=360°). These circles and the division into sectors are drawn on a large sheet of paper and guarantee a constant environment. While the e-puck is placed statically in the centre, a constant sound (in all directions) is emitted at the respective points of the circles using an audio device.
 
 ### Generation and extraction of data records ###
 The above setup leads to twenty points on each distance circle and thus to a total of 60 different measuring points. A beep is now automatically played at each of these measuring points using the record.py script and the inputs of all four audio sensors are recorded. These recordings are made manually for each specific distance and angle and create a CSV file with the following name **file<counter>_D<32>_A<18>.csv** for each point of the setup, whereby in this example a circle radius of 32cm and an angle of 18° are encoded in the file name. For each measuring point, 60 such CSV files are created by the **sound_extractor.py** script. With the total of 60 points (**three radii with 20 points each**) of the setup, this **results in a total of 3600 data records.**
