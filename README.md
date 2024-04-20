@@ -20,6 +20,8 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 - [Object recognition](#Object-recognition)
 - [Communicate between robots with pooling messages](#Communicate-between-robots-with-pooling-messages)
 
+- [Machine learning distance and angle of an audio signal](https://github.com/oliolioli/Robotics/blob/main/machine-learning-robot.md)
+
  </b>
  </p>&nbsp;</p>
  
