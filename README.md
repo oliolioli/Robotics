@@ -15,7 +15,7 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
    
 - [Braitenberg vehicles](#Braitenberg-vehicles)</b> - See [Braitenberg vehicle](https://en.wikipedia.org/wiki/Braitenberg_vehicle) for a short introduction.<b>
 - [Line following](#Line-following)
-- [PID controlled wand following behaviour](#PID-controlled-wand-following-behaviour)
+- [PID controlled wand following behaviour](#PID-controlled-wand-following-behaviour) </b>(PID = Proportional–integral–derivative controller)<b>
 - [Recognise coloured blocks](#Recognise-coloured-blocks)
 - [Object recognition](#Object-recognition)
 - [Communicate between robots with pooling messages](#Communicate-between-robots-with-pooling-messages)
@@ -104,7 +104,7 @@ In the following, an e-puck is to be optimised so that it follows the course of 
 - I - Integral (past error)
 - D - derivative (approximation of future error)
 </b>
-PID controllers therefore represent a closed-loop control system, as past, current and even expected future errors are included in the calculation. The parameterisation of these parameters is not trivial: "simple to describe in principle, PID tuning is a difficult problem"[^1]. In the following, an attempt will be made to find ideal parameters so that the robot moves along the wall but does not touch it.
+PID controllers therefore represent a closed-loop control system, as past, current and even expected future errors are included in the calculation. The parameterisation of these parameters is not trivial: "simple to describe in principle, PID tuning is a difficult problem" [^1]. In the following, an attempt will be made to find ideal parameters so that the robot moves along the wall but does not touch it.
 
 https://github.com/oliolioli/Robotics/assets/4264535/ec4084f7-43d5-42b0-987f-2caaa104e5f8
 
