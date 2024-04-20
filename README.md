@@ -98,7 +98,7 @@ elif ( gs [ MID ] > 500 and gs [ LEFT ] > 500 and gs [ RIGHT ] > 500) :
 
 ## PID controlled wand following behaviour ##
 
-In the following, an e-puck is to be optimised so that it follows the course of a wall using a [PID controller](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller) . A PID controller consists of three elements (P, I and D):
+In the following, an e-puck is to be optimised so that it follows the course of a wall using a [Proportional–integral–derivative controller, PID](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller). A PID controller consists of three elements (P, I and D):
 <b><b>🚩 <a href="https://github.com/oliolioli/Robotics/blob/main/Sensors.md">Sensor overview and analysis</a></b>
 - P - Proportional (actual error)
 - I - Integral (past error)
