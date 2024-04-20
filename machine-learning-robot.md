@@ -1,8 +1,8 @@
 # Machine learning to recognize distance and angle of an audio signal #
 
-https://github.com/oliolioli/Robotics/assets/4264535/33b4b309-cf93-4e6c-a93a-d5f4863eddeb
 
-
+[Problem description](#Problem-description)
+[Solution strategy](#Solution-strategy)
 
 ## Problem description ##
 
