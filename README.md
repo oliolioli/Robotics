@@ -41,8 +41,6 @@ speedR = ( NORM_SPEED - dsR )
 speedL = ( NORM_SPEED - dsL )
 ```
 
-_💡 Unfortunately, due to the artificial lighting conditions, flickering was almost unavoidable in these and the following video recordings. 📹_
-
 ### Exploring (avoiding instead of approaching obstacles) ###
 
 The Braitenberg vehicle of the Explorer type should not approach an obstacle like the previous type, but rather avoid obstacles. This is achieved by the simple reversal of the
@@ -63,6 +61,8 @@ simply not designed for obstacles that are too low. Furthermore, the two rearmos
 https://github.com/oliolioli/Robotics/assets/4264535/0f0dc9ea-8356-4ec1-b1bc-1f7502ccfeb0
 
 _Video: Approaching obstacles, stop and explore further_
+
+_💡 Unfortunately, due to the artificial lighting conditions, flickering was almost unavoidable in these and the following video recordings. 📹_
 
 
 ## Line following ##
@@ -137,6 +137,9 @@ As soon as one of the three colours is detected, the system checks whether a cer
 
 https://github.com/oliolioli/Robotics/assets/4264535/6ef6fbd2-19ad-434a-bde5-63a94a192640
 
+_Video: Recognising coloured blocks_
+
+
 ## Object recognition ##
 
 The object recognition API recognises a wide variety of objects (see above). As the object recognition API not only provides the height and width but also the centre centre of the detected object in the X-axis and the Y-axis, we can determine the distance. After an initial calibration, we receive the object recognition information that corresponds to a desired distance of the target ten centimetres.
@@ -179,6 +182,8 @@ Now the values of the forward and backward movement ds_backandforth and any left
 
 https://github.com/oliolioli/Robotics/assets/4264535/bafca50c-4494-42a7-b0a7-4fb7abd72ce9
 
+_Video: Object recognition_
+
 
 **💡 Learnings** 
 Finding an ideal tolerance range at which the robot would ultimately come to a standstill was the  the most difficult part of this implementation. The sensors provide such volatile data that the robot tended to correct far too quickly and too much. The use of average values using an array was useful for smoothing this data.
@@ -193,6 +198,8 @@ With established communication, robots can synchronise their sensor data and thu
 If the corresponding bit is set to one, otherwise it remains at zero. This gives us a simple code that reflects the blocks recognised by the robot in its environment. For example, a single red block would be displayed with the code 100, a green block with a blue block with 011. Messages are only sent if coloured blocks are actually detected. This keeps the message volume as small as possible and makes it easier to interpret, as the recognised environment must be compared with the environment recognised by the neighbouring e-puck. If the robot now receives the same message as it sends, it sees the same objects in its environment. If both robots recognise the same configuration, all their LEDs are activated.
 
 https://github.com/oliolioli/Robotics/assets/4264535/69c0293e-a9a2-4aa4-ab53-90c3b8b32392
+
+_Video: Inter-robot communication through message pooling_
 
 
 [^1]: https://en.wikipedia.org/wiki/PID_controller
