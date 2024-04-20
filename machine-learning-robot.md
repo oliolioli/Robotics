@@ -39,4 +39,7 @@ The two models created, Random_forest_model_distance.pkl and Random_forest_model
 With the RandomForest created by SciKit, we consistently obtain very satisfactory results. In Table 3.1 below, we can see that the e-puck only misjudges a played sound that is sixteen centimetres away in five out of a hundred cases. And this misjudgement is only 18°. Although the error rate increases with increasing distance, remarkably it is completely wrong in very few cases
 and in most cases only by 18°.
 
+### Manual validation ###
 
+The live_test.py script can be used to test the model live with the e-puck. To do this, the inputs to the four audio sensors are read out as in the sound_extractor.py script
+and analysed for their features. These values can then be passed to the angle and distance model using the predict() function. The return values of the models then lead to the corresponding control of the motors of the e-puck in order to approximate the audio source in terms of angle and distance.
