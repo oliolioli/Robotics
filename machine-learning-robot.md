@@ -26,3 +26,17 @@ The above setup leads to twenty points on each distance circle and thus to a tot
 
 The **sound_extractor.py** script then **extracts the individual tracks of the audio sensors from the stored data records**. The maximum and average volume of the beep are extracted from these. As four audio sensors with an average value and a maximum value are stored for each beep, eight so-called features can be extracted per data set. In this script, the main() function simply writes the angle or distance of the respective data set and the eight features to one line, which are then merged and written to two large files: angle_all.csv and distance_all.csv, which will ultimately lead to two different models. In the end, both files contain around 3600 data records, but certain individual entries have to be removed due to noise, for example.
 
+
+### Training and testing the model ###
+Now the software SciKit[11] is used, which can be used to create so-called random forests[9][10]. Using the ia.py script, both angle_all.csv and distance_all.csv files are now processed individually by hand. First, the data is sorted randomly. Then 80% of the data is used to train the so-called RandomForest (train). The remaining 20% is used for later validation (test).
+
+The first line of each data set and the last eight lines of each data set (with the 2*4 features) are now written to variables y_train and x_train. These two variables are now transferred to the generated decision tree using the fit() function. The decision tree thus receives the information about the angle or distance and the corresponding eight features. With this information, the various models can now be generated and the most promising can finally be selected for classification tasks[9]. This work is done for us by the Python library SciKit[11].
+
+## Validation ##
+
+### Automatic validation ###
+The two models created, Random_forest_model_distance.pkl and Random_forest_model_angle.pkl, can now also be validated using the ia.py script, which checks tests against predictions and outputs the corresponding error.
+With the RandomForest created by SciKit, we consistently obtain very satisfactory results. In Table 3.1 below, we can see that the e-puck only misjudges a played sound that is sixteen centimetres away in five out of a hundred cases. And this misjudgement is only 18°. Although the error rate increases with increasing distance, remarkably it is completely wrong in very few cases
+and in most cases only by 18°.
+
+
