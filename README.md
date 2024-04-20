@@ -15,7 +15,7 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
    
 - [Braitenberg vehicles](#Braitenberg-vehicles)</b> - See [Braitenberg vehicle](https://en.wikipedia.org/wiki/Braitenberg_vehicle) for a short introduction.<b>
 - [Line following](#Line-following)
-- [PID controlled wand following behaviour](#PID-controlled-wand-following-behaviour) </b>(PID = Proportional–integral–derivative controller)<b>
+- [Proportional–integral–derivative controller (PID) controlled wand following behaviour](#PID-controlled-wand-following-behaviour)
 - [Recognise coloured blocks](#Recognise-coloured-blocks)
 - [Object recognition](#Object-recognition)
 - [Communicate between robots with pooling messages](#Communicate-between-robots-with-pooling-messages)
@@ -98,7 +98,7 @@ elif ( gs [ MID ] > 500 and gs [ LEFT ] > 500 and gs [ RIGHT ] > 500) :
 
 ## PID controlled wand following behaviour ##
 
-In the following, an e-puck is to be optimised so that it follows the course of a wall using a [Proportional–integral–derivative controller, PID](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller). A PID controller consists of three elements (P, I and D):
+In the following, an e-puck is to be optimised so that it follows the course of a wall using a [Proportional–integral–derivative controller (PID)](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller). A PID controller consists of three elements (P, I and D):
 <b><b>🚩 <a href="https://github.com/oliolioli/Robotics/blob/main/Sensors.md">Sensor overview and analysis</a></b>
 - P - Proportional (actual error)
 - I - Integral (past error)
