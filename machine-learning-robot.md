@@ -12,7 +12,7 @@ We want the e-puck to learn and recognise the angle and distance to an incoming,
 
 ## Solution strategy ##
 
-To solve this problem, the basic consideration is that the four audio sensors of the e-puck must necessarily receive an audio signal at different levels and at different times. Audio signals played at a certain angle to the side of the e-puck can also be recognised in principle by their pattern. Figures 4.22, 4.23 and 4.24, for example, clearly show the extent to which a lateral signal leaves its own signature on the four audio sensors. 
+To solve this problem, the basic consideration is that the four audio sensors of the e-puck must necessarily receive an audio signal at different levels and at different times. Audio signals played at a certain angle to the side of the e-puck can also be recognised in principle by their pattern. The following figures clearly show the extent to which a lateral signal leaves its own signature on the four audio sensors.
 
 <table>
   <tr>
@@ -20,8 +20,6 @@ To solve this problem, the basic consideration is that the four audio sensors of
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/7091a5df-237a-4bf5-bc37-71761707b5a2">Beep, diagonal between audio sensor 0 and 3</td>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/70e5e19d-73ea-476e-8006-fd4992ff02ae">Beep, diagonal between audio sensor 3 and 2</td></tr>
 </table>
-
-
 
 
 For these reasons, the e-puck can in principle be taught from which angle and from which distance an audio signal is sent using machine learning. As a solution strategy, this problem can be divided into various sub-problems:
@@ -34,7 +32,23 @@ For these reasons, the e-puck can in principle be taught from which angle and fr
 ### Checking the setup and audio sensors ###
 The first test of the four audio sensors revealed that the API supplied did not allow sufficient difference to be detected in the four different inputs to be able to generate different data sets per sensor at all. For this reason, the decision was made to add additional 'ears' to the four audio sensors of the e-puck using 3D printing, which can be placed on the e-puck and include the four audio sensors. 
 
-Partition walls are fitted between these individual 'ears', which are additionally insulated with additional filling material. In figure ... (without ears) and Figure ... (with ears) the improvement is clear: the individual audio tracks are much further apart and there is hardly any overlap. Noise interference has also been minimised: the four audio tracks can be distinguished much more clearly, making their so-called features more distinct and facilitating machine learning.
+<table>
+  <tr>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/be93f914-2849-441e-9746-69a28138ae30"></td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2b4eb179-361d-45dd-8118-f8c673738e9d"></td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/5bbd2bcd-6e33-4749-a64d-2289d826d8a5"></td>
+  </tr>
+</table>
+
+Partition walls are fitted between these individual 'ears', which are additionally insulated with additional filling material. The improvement from the additional ears is clear: the individual audio tracks are much further apart and there is hardly any overlap. Noise interference has also been minimised: the four audio tracks can be distinguished much more clearly, making their so-called features more distinct and facilitating machine learning.
+
+<table>
+  <tr>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/26be3593-1076-4e86-857f-360916207efa"></td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4be73374-f5cc-4012-85bc-bdd3e09f0a5a"></td>
+  </tr>
+</table>
+
 
 A simple beep was selected as the audio signal. The following setup was selected to generate the actual data sets: The e-puck stands statically in the centre of three circles with a radius of sixteen, 32 and 48cm. These three circles are divided into sectors of eighteen degrees, resulting in twenty different sectors per circle (20*18°=360°). These circles and the division into sectors are drawn on a large sheet of paper and guarantee a constant environment. While the e-puck is placed statically in the centre, a constant sound (in all directions) is emitted at the respective points of the circles using an audio device.
 
