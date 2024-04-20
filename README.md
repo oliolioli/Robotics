@@ -108,7 +108,9 @@ A PID controller consists of three elements (P, I and D):
 PID controllers therefore represent a closed-loop control system, as past, current and even expected future errors are included in the calculation.
 The parameterisation of these parameters is not trivial:
 
-[^1] "simple to describe in principle, PID tuning is a difficult problem". footnote,[^1] and a longer. [^bignote] In the following, an attempt will be made to find ideal parameters so that the robot moves along the wall but does not touch it.
+"simple to describe in principle, PID tuning is a difficult problem".[^1]
+
+In the following, an attempt will be made to find ideal parameters so that the robot moves along the wall but does not touch it.
 
 
 
