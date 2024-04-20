@@ -206,3 +206,4 @@ _Video: Inter-robot communication through message pooling_
 
 
 [^1]: https://en.wikipedia.org/wiki/PID_controller
+[^bignote]: https://example.com
