@@ -47,7 +47,8 @@ Partition walls are fitted between these individual 'ears', which are additional
   <th>Audio recording without ears</th><th>Audio recording with ears</th>
   <tr>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/26be3593-1076-4e86-857f-360916207efa"></td>
-    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4be73374-f5cc-4012-85bc-bdd3e09f0a5a"></td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4be73374-f5cc-4012-85bc-bdd3e09f0a5a">The four audio tracks are much more clearly distinguishable.
+their so-called features are therefore clearer and facilitate machine learning.</td>
   </tr>
 </table>
 
