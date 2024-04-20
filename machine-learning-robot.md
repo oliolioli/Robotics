@@ -1,5 +1,9 @@
 # Machine learning to recognize distance and angle of an audio signal #
 
+https://github.com/oliolioli/Robotics/assets/4264535/3d335dcb-b4cf-4c28-96a6-bbc19c785ac9
+
+_Video showing the e-puck finding angle and distance of an incoming audio signal, learned through machine learning_
+
 <b>
 
 - [Problem description](#Problem-description)
@@ -14,14 +18,6 @@
 - [Conclusion](#Conclusion)
 
 </b>
-
-
-
-
-https://github.com/oliolioli/Robotics/assets/4264535/3d335dcb-b4cf-4c28-96a6-bbc19c785ac9
-
-
-
 
 
 ## Problem description ##
