@@ -2,7 +2,7 @@
 
 https://github.com/oliolioli/Robotics/assets/4264535/3d335dcb-b4cf-4c28-96a6-bbc19c785ac9
 
-_Video showing the e-puck finding angle and distance of an incoming audio signal, learned through machine learning (with sound, although annoying)_
+_Video showing the e-puck finding angle and distance of an incoming audio signal, machine learned (with sound, although annoying 🔉)_
 
 <b>
 
