@@ -109,6 +109,7 @@ PID controllers therefore represent a closed-loop control system, as past, curre
 The parameterisation of these parameters is not trivial:
 
 "simple to describe in principle, PID tuning is a difficult problem".[^1]
+
 In the following, an attempt will be made to find ideal parameters so that the robot moves along the wall but does not touch it.
 
 
