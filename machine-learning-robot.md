@@ -1,8 +1,17 @@
 # Machine learning to recognize distance and angle of an audio signal #
 
-
-[Problem description](#Problem-description)
-[Solution strategy](#Solution-strategy)
+<b>
+- [Problem description](#Problem-description)
+- [Solution strategy](#Solution-strategy)
+- [Implementation](#Implementation)
+- [Checking the setup and audio sensors](#Checking-the-setup-and-audio-sensors)
+- [Generation and extraction of data records](#Generation-and-extraction-of-data-records)
+- [Training and testing the model](#Training-and-testing-the-model)
+- [Validation](#Validation)
+- [Automatic validation](#Automatic-validation)
+- [Manual validation](#Manual-validation)
+- [Conclusion](#Conclusion)
+</b>
 
 ## Problem description ##
 
