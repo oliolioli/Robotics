@@ -1,5 +1,9 @@
 # Machine learning to recognize distance and angle of an audio signal #
 
+https://github.com/oliolioli/Robotics/assets/4264535/33b4b309-cf93-4e6c-a93a-d5f4863eddeb
+
+
+
 ## Problem description ##
 
 We want the e-puck to learn and recognise the angle and distance to an incoming, predefined audio signal in a given environment using machine learning. As soon as the predefined sound is played at a random location in the predefined setup environment, the e-puck should move towards the sound source.
