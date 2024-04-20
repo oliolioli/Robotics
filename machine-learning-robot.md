@@ -44,11 +44,10 @@ The first test of the four audio sensors revealed that the API supplied did not 
 Partition walls are fitted between these individual 'ears', which are additionally insulated with additional filling material. The improvement from the additional ears is clear: the individual audio tracks are much further apart and there is hardly any overlap. Noise interference has also been minimised: the four audio tracks can be distinguished much more clearly, making their so-called features more distinct and facilitating machine learning.
 
 <table>
-  <th>Audio recording without ears</th><th>Audio recording with ears</th>
+  <th>The four audio tracks are much more clearly distinguishable. Their so-called features are therefore clearer and facilitate machine learning</th>
   <tr>
-    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/26be3593-1076-4e86-857f-360916207efa"></td>
-    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4be73374-f5cc-4012-85bc-bdd3e09f0a5a">The four audio tracks are much more clearly distinguishable.
-their so-called features are therefore clearer and facilitate machine learning.</td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/26be3593-1076-4e86-857f-360916207efa">Audio recording without ears</td>
+    <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4be73374-f5cc-4012-85bc-bdd3e09f0a5a">Audio recording with ears</td>
   </tr>
 </table>
 
