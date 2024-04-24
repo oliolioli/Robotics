@@ -54,6 +54,7 @@ For these reasons, the e-puck can in principle be taught from which angle and fr
 The first test of the four audio sensors revealed that the API supplied did not allow sufficient difference to be detected in the four different inputs to be able to generate different data sets per sensor at all. For this reason, the decision was made to add additional 'ears' to the four audio sensors of the e-puck using 3D printing, which can be placed on the e-puck and include the four audio sensors. 
 
 <table>
+  <th>Additional 'ears' for the audio sensors of the e-puck and a singing Elvis just for fun.</th>
   <tr>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/be93f914-2849-441e-9746-69a28138ae30"></td>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2b4eb179-361d-45dd-8118-f8c673738e9d"></td>
