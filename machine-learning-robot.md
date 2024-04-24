@@ -54,7 +54,7 @@ For these reasons, the e-puck can in principle be taught from which angle and fr
 The first test of the four audio sensors revealed that the API supplied did not allow sufficient difference to be detected in the four different inputs to be able to generate different data sets per sensor at all. For this reason, the decision was made to add additional 'ears' to the four audio sensors of the e-puck using 3D printing, which can be placed on the e-puck and include the four audio sensors. 
 
 <table>
-  <th>Additional 'ears' for the audio sensors of the e-puck and a singing Elvis just for fun.</th>
+  <th colspan="3">Additional 'ears' for the audio sensors of the e-puck and a singing Elvis just for fun.</th>
   <tr>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/be93f914-2849-441e-9746-69a28138ae30"></td>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/2b4eb179-361d-45dd-8118-f8c673738e9d"></td>
@@ -65,7 +65,7 @@ The first test of the four audio sensors revealed that the API supplied did not 
 Partition walls are fitted between these individual 'ears', which are additionally insulated with additional filling material. The improvement from the additional ears is clear: the individual audio tracks are much further apart and there is hardly any overlap. Noise interference has also been minimised: the four audio tracks can be distinguished much more clearly, making their so-called features more distinct and facilitating machine learning.
 
 <table>
-  <th colspan="3">Audio recording without ears</th><th>Audio recording with ears</th>
+  <th>Audio recording without ears</th><th>Audio recording with ears</th>
   <tr>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/26be3593-1076-4e86-857f-360916207efa"></td>
     <td><img src="https://github.com/oliolioli/Robotics/assets/4264535/4be73374-f5cc-4012-85bc-bdd3e09f0a5a"></td>
