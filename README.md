@@ -12,6 +12,7 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 
 <h2> ↪ Problems and solutions:</h2>
 <b>
+   
 - [Machine learning](https://github.com/oliolioli/Robotics/blob/main/machine-learning-robot.md) distance and angle of an audio signal
    
 - [Braitenberg vehicles](#Braitenberg-vehicles)</b> - See [Braitenberg vehicle](https://en.wikipedia.org/wiki/Braitenberg_vehicle) for a short introduction.<b>
