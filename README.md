@@ -74,11 +74,11 @@ Two sensors are positioned on a line and one remaining sensor on the white backg
 
 ```python
 elif ( gs [ MID ] > 500 and gs [ LEFT ] < 500) :
-robot . set_speed (2 , 0)
+robot.set_speed (2 , 0)
 elif ( gs [ LEFT ] > 500 and gs [ RIGHT ] < 500) :
-robot . set_speed (0 , 2)
+robot.set_speed (0 , 2)
 else :
-robot . set_speed (2 , 2)
+robot.set_speed (2 , 2)
 ```
 
 https://github.com/oliolioli/Robotics/assets/4264535/74a5d4dd-158e-4719-96a9-7b2cbbef6fd0
@@ -129,17 +129,17 @@ To do this, the entire image area (array of (160x120 pixels)) captured using rob
 for y in range (119) :
    for x in range (159) :
       if ( r [ y ][ x ] >= g [ y ][ x ] + 45 and r [ y ][ x ] >= b [ y ][ x ] + 45 and red_on == False ) :
-         if ( check_red (x , y , r , g , b ) ) :
+         if ( check_red(x , y , r , g , b ) ) :
             red_on = True
-            light_robot ()
+            light_robot()
    elif ( g [ y ][ x ] >= r [ y ][ x ] + 15 and g [ y ][ x ] >= b [ y ][ y ] + 15 and green_on == False ) :
-      if ( check_green (x , y , r , g , b ) ) :
+      if ( check_green(x , y , r , g , b ) ) :
          green_on = True
-         light_robot ()
+         light_robot()
    elif ( b [ y ][ x ] >= r [ y ][ x ] + 30 and b [ y ][ x ] >= g [ y ][ x ] + 30 and blue_on == False ) :
-      if ( check_blue (x , y , r , g , b ) ) :
+      if ( check_blue(x , y , r , g , b ) ) :
          blue_on = True
-         light_robot ()
+         light_robot()
 ```
 
 
