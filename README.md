@@ -13,9 +13,9 @@ The E-Puck was designed at the EPFL Autonomous Systems Lab and is open-hardware 
 <h2> ↪ Problems and solutions:</h2>
 <b>
    
-- [Machine learning](https://github.com/oliolioli/Robotics/blob/main/machine-learning-robot.md) distance and angle of an audio signal
+- [Machine learning](https://github.com/oliolioli/Robotics/blob/main/machine-learning-robot.md)</b> distance and angle of an audio signal<b>
    
-- [Braitenberg vehicles](#Braitenberg-vehicles)</b> - See [Braitenberg vehicle](https://en.wikipedia.org/wiki/Braitenberg_vehicle) for a short introduction.<b>
+- [Braitenberg vehicles](#Braitenberg-vehicles)</b> - See [Braitenberg vehicle](https://en.wikipedia.org/wiki/Braitenberg_vehicle) for a short introduction<b>
 - [Line following](#Line-following)
 - [Proportional–integral–derivative controller (PID) controlled behaviour](#PID-controlled-wand-following-behaviour)
 - [Recognise coloured blocks](#Recognise-coloured-blocks)
